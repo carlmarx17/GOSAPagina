@@ -692,3 +692,28 @@ nav ul {
         gap: 40px;
     }
 }
+.about-image-wrapper {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.group-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.hero-sun-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 60px rgba(255, 121, 0, 0.6);
+    animation: pulse-glow 4s infinite alternate;
+}
