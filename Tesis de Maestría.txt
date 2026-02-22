@@ -1,0 +1,700 @@
+
+Tesis de Maestría      
+
+Ciencias - Astronomía
+
+Universidad Nacional de Colombia       
+
+​
+
+2024
+
+​
+
+Aplicación de técnicas de Deep Learning en el modelamiento y observación de la fotósfera solar
+
+GERMAIN NICOLÁS MORALES
+
+Director: Santiago Vargas
+
+Codirector: Sergyi Shelyag
+
+​
+
+​
+
+​
+
+2023
+
+​
+
+Dynamics of the Cold Solar Chromosphere Observed with ALMA
+
+FRANCISCO JAVIER ORDOÑEZ
+
+Director: Benjamín Calvo Mozo
+
+Codirector: Juan Camilo Guevara
+
+​
+
+​
+
+​
+
+2022
+
+​
+
+Caracterización y análisis dinámico de estructuras magnéticas móviles a pequeña escala (MMF) alrededor de un poro solar
+
+ANYUL  FIGUEROA
+
+Director: Santiago Vargas Domínguez
+
+​
+
+​
+
+​
+
+2021
+
+​
+
+On the Generation of Subphotospheric Acoustic Sources
+
+ANGEL MARTÍNEZ
+
+Director: Benjamín Calvo Mozo,
+
+Co-director: Juan Carlos Martínez
+
+Jurados: Santiago Vargas Domínguez
+
+​
+
+Prediction of the Occurrence of Flares in the Solar Cycle 24 from the Evolution of Magnetic Polarity Barycenters in Active Regions
+
+NATALIA GRANADOS HERNÁNDEZ
+
+Director: Santiago Vargas Domínguez
+
+Co-director: Domenico Bonaccinni Calia
+
+Jurados: Benjamín Calvo Mozo, Dominik Utz
+
+​
+
+Estudio observacional de la dinámica de puntos brillantes en una zona del Sol en calma
+
+YEIMY GERARDINE BERRIOS
+
+Director: Santiago Vargas Domínguez
+
+Co-director: Dominik Utz
+
+Jurados: Benjamín Calvo Mozo, Christoph Kuckein
+
+Tesis Meritoria
+
+​
+
+​
+
+2018
+
+​
+
+The impulsivity of Solar Flares: Concepts and Applications
+
+WILMAR GEMÁN FAJARDO MENDIETA
+
+Director: Benjamín Calvo Mozo
+
+Jurados: Juan Domingo Baena, Leonardo Castañeda Colorado
+
+Tesis Meritoria
+
+​
+
+Characterization of CME-driven shock in the interplanetary medium using type II radio bursts
+
+SAIDA MILENA DÍAZ CASTILLO
+
+Director: Benjamín Calvo Mozo
+
+Jurados: Fredy Alexander  Ochoa, Santiago Vargas Domínguez    
+
+Tesis Meritoria             
+
+​
+
+Design and development of a solar radio interferometer of a solar radio interferometer  of two elements
+
+JUAN CAMILO GUEVARA GÓMEZ
+
+Director: Benjamín Calvo Mozo
+
+Jurados: Stanley Eugene Kurtz, Santiago Vargas Domínguez
+
+Tesis Meritoria
+
+​
+
+​
+
+2017
+
+​
+
+Evolution and Dynamic Properties of Photospheric Plasma in Solar Active Regions
+
+JOSÉ IVÁN CAMPOS ROZO
+
+Director: Santiago Vargas Domínguez
+
+Jurados: Illa Rivero  Losada, Fátima Rubio Da Costa
+
+​
+
+​
+
+2016
+
+​
+
+A  study of photospheric vector magnetic field changes during solar flares
+
+JUAN SEBASTIÁN CASTELLANOS DURÁN 
+
+Director: Benjamín Calvo Mozo
+
+Jurados: Mark Cheung,  Andrés Asencio Ramos
+
+​
+
+Un modelo computacional para estudiar modos P en regiones activas del Sol
+
+CARLOS ANDRÉS GALARZA AREVALO
+
+Director: Benjamín Calvo Mozo
+
+Jurados: Giovanni Alejandro Pinzón Estrada, Santiago Vargas Dominguez
+
+​
+
+​
+
+2014
+
+​
+
+Estudio de la dinámica de partículas cargadas en una lámina de corriente de reconexión de una fuguración solar
+
+ANDRÉS MAURICIO HUERTAS HURTADO
+
+Director: Benjamín Calvo Mozo
+
+Jurados: Mario Armando Higuera Garzón, Giovanni Alejando Pinzón Estrada                        
+
+                                                               
+
+​
+
+2013
+
+​
+
+Sobre la aceleración estocástica de electrones y la sismicidad asociada a fulguraciones solares
+
+JUAN CAMILO BUITRAGO CASAS
+
+Director: Benjamín Calvo Mozo
+
+Jurados: Giovanni Alejando Pinzón Estrada,  Santiago Vargas Domínguez
+
+Tesis Laureada
+
+​
+
+​
+
+2012
+
+​
+
+Modelamiento de variaciones magnéticas en la superficie solar y su asociación a fuentes sísmicas generadas por flares
+
+JULIÁN DAVID ALVARADO GÓMEZ
+
+Director: Benjamín Calvo Mozo
+
+Jurados:  Leonardo Castañeda Colorado, Ricardo  Amezquita Orozco
+
+Tesis Meritoria
+
+​
+
+​
+
+______________________________
+
+​
+
+​
+
+Trabajos de Grado
+
+Universidad Nacional de Colombia
+
+​
+
+2023
+
+​
+
+Estudio de las propiedades anisotrópicas del plasma en el viento solar usando simulaciones cinéticas en 3D de turbulencia
+
+ANDRES FELIPE GUERRERO
+
+Director: Santiago Vargas
+
+Codirector: Jefferson Agudelo
+
+​
+
+​
+
+2022
+
+​
+
+Estudio de la respuesta multitérmica en algunos filtros del instrumento SDO/AIA
+
+JUAN PABLO HERRERA
+
+Director: Benjamín Calvo Mozo
+
+Co-director: Juan Carlos Martínez
+
+​
+
+Solar activity influence on perturbations over the geomagnetic field based on data of the Geomagnetic Observatory of Fuquene, Colombia
+
+SANTIAGO PINZÓN CORTÉS
+
+Director: Santiago Vargas Domínguez
+
+Co-director: Natalia Gómez
+
+​
+
+Sobre el entorno magnético de fulguraciones solares de gran magnitud y algunas aplicaciones prácticas
+
+PAULA GONZÁLEZ
+
+Director: Santiago Vargas Domínguez
+
+Co-director: Juan Camilo Buitrago 
+
+​
+
+​
+
+2021
+
+​
+
+Estudio de la respuesta multitérmica en algunos filtros del SDO/AIA
+
+JUAN PABLO HERRERA
+
+Director: Benjamín Calvo Mozo
+
+Co-director: Juan Carlos Martínez
+
+​
+
+Estudio de las velocidades Doppler y su relación con las oscilaciones del campo magnético en la penumbra de las manchas
+
+FRANCISCO JAVIER ORDOÑEZ
+
+Director: Benjamín Calvo Mozo
+
+​
+
+Implementación de un medidor de centelleo atmosférico diurno como parte del estudio de prospección astronómica para el emplazamiento de un observatorio solar
+
+JAVIER SÁNCHEZ GONZÁLEZ
+
+Director: Santiago Vargas Domínguez
+
+​
+
+Dinámica del plasma fotosférico durante el decaimiento de regiones solares activas
+
+VALERIA QUINTERO
+
+Director: Santiago Vargas Domínguez
+
+Co-director: Jose Ivan Campos Rozo
+
+ 
+
+JEFFERSON STIVEN ARIAS
+
+Director: Benjamín Calvo Mozo
+
+​
+
+JULIO FLOREZ MACIAS
+
+Director: Benjamín Calvo Mozo
+
+​
+
+​
+
+2019
+
+​
+
+Análisis de centroides de polaridad  magnética en regiones solares activas
+
+NATALIA GRANADOS HERNÁNDEZ
+
+Director: Santiago Vargas Domínguez
+
+​
+
+Estudio de la turbulencia atmosférica
+
+JOHAN SAMIR MÉNDEZ
+
+Director: Santiago Vargas Domínguez
+
+​
+
+Detección automática de puentes de luz en manchas solares empleando técnicas de aprendizaje de máquina
+
+BRYAN ALFONSO SOLER
+
+Director: Santiago Vargas Domínguez
+
+Co-director: Juan Rafael Martínez Galarza
+
+​
+
+ANGEL DANIEL MARTÍNEZ
+
+Director: Benjamín Calvo Mozo
+
+​
+
+​
+
+2018
+
+​
+
+Solar Faculae Data Base
+
+JUAN PABLO VARGAS
+
+Director: Santiago Vargas Domínguez
+
+Co-Director: Andrés Muñoz Jaramillo
+
+​
+
+WILLINTON JOMAR CAIDEDO
+
+Director: Benjamín Calvo Mozo
+
+​
+
+FRANCISCO ANDRÉS TRIANA
+
+Director: Benjamín Calvo Mozo
+
+​
+
+​
+
+2017
+
+​
+
+JOHAN CAMILO MÉNDEZ
+
+Director: Benjamín Calvo Mozo
+
+​
+
+​
+
+2014
+
+​
+
+Dinámica de puntos brillantes en la fotósfera solar
+
+JOSE IVÁN CAMPOS ROZO
+
+Director: Benjamín Calvo Mozo
+
+Co-Director: Dominik Utz
+
+​
+
+JUAN SEBASTIÁN CASTELLANOS
+
+Director: Benjamín Calvo Mozo
+
+​
+
+SANDRA MILENA DÍAZ
+
+Director: Benjamín Calvo Mozo
+
+​
+
+WILMAN GERMAN FAJARDO
+
+Director: Benjamín Calvo Mozo
+
+​
+
+JUAN CAMILO GUEVARA
+
+Director: Benjamín Calvo Mozo
+
+​
+
+​
+
+2013
+
+​
+
+ELIANA AMAZO GÓMEZ
+
+Director: Benjamín Calvo Mozo
+
+​
+
+PEDRO ANTONIO SANTOS FLÓREZ
+
+Director: Benjamín Calvo Mozo
+
+______________________________
+
+​
+
+​
+
+Tesis de Maestria
+
+Física
+
+Universidad Nacional de Colombia
+
+​
+
+​
+
+2021
+
+​
+
+Bayesian constraints on observable properties of exoplanetary systems using planet population synthesis simulations
+
+FRANK BAUTISTA
+
+Director: Santiago Vargas Domínguez
+
+Co-Director: Germán Chaparro
+
+Jurados: Rigoberto Casas, Pablo Cuartas
+
+Tesis Meritoria
+
+______________________________
+
+​
+
+​
+
+Tesis de Maestria
+
+Enseñanza de las Ciencias
+
+Universidad Nacional de Colombia
+
+​
+
+​
+
+2023
+
+​
+
+Análisis de la conexión entre la astronomía y el plan de estudios en educación básica y media en el marco de la Oficina de Astronomía para la Educación en Colombia (OAE)
+
+DORIS PAOLA SANABRIA GARCÍA
+
+Director: Santiago Vargas Domínguez
+
+Co-Directora: Angela Pérez
+
+​
+
+​
+
+2022
+
+​
+
+Enseñanza de la Astronomía para promover la paz y la reconciliación en comunidades vulnerables
+
+ERIKA HERNÁNDEZ VÁSQUEZ
+
+Director: Santiago Vargas Domínguez
+
+Co-Directora: Itzel Hernández Armenta
+
+​
+
+​
+
+2021
+
+​
+
+Maletín de herramientas didácticas para la enseñanza del electromagnetismo en grado 11
+
+JOHN FREDY PUENTES TORRES
+
+Director: Santiago Vargas Domínguez
+
+​
+
+​
+
+2019
+
+​
+
+Desarrollo de una secuencia didáctica para la enseñanza-aprendizaje de los conceptos de triángulo de posición y movimiento diurno para estudiantes de astronomía esférica de la Universidad Distrital Francisco José de Caldas
+
+EDILBERTO SUÁREZ
+
+Director: Santiago Vargas Domínguez
+
+​
+
+ 
+
+2018
+
+​
+
+Propuesta didáctica para la enseñanza de la astronomía en la escuela
+
+ALVARO BAQUERO
+
+Director: Santiago Vargas Domínguez
+
+​
+
+​
+
+2016
+
+​
+
+Actividades didácticas en astronomía estelar, para un público en general del museo de la ciencia y el juego de la Universidad Nacional de Colombia
+
+JULIÁN PICO
+
+Director: Santiago Vargas Domínguez
+
+​
+
+​
+
+2015
+
+​
+
+Estudio del magnetismo de cuerpos astronómicos; una propuesta para motivar y profundizar las temáticas del electromagnetismo en el curso de física de grado 11
+
+JOHANA KATHERINE MORALES CHAPARRO
+
+Director: Santiago Vargas Domínguez
+
+​
+
+______________________________
+
+​
+
+​
+
+Tesis en otras instituciones
+
+​
+
+​
+
+2023
+
+​
+
+La espectroscopia estelar como herramienta para llevar al aula el modelo atómico de Bohr
+
+Tesis de Licenciatura en Física
+
+Universidad Pedagógica Nacional
+
+ANA GABRIELA MARTINEZ MAHECHA
+
+Director: Néstor Hernando Méndez
+
+​
+
+​
+
+2019
+
+​
+
+Efecto de las turbulencias atmosféricas terrestres sobre los parámetros de Stokes usados para el cálculo del campo magnético solar
+
+Tesis de Maestría en Astronomía
+
+Universidad Internacional de Valencia
+
+RENE RESTREPO
+
+Director: Santiago Vargas Domínguez
+
+​
+
+​
+
+2013
+
+​
+
+Actividad solar y su relación con el cambio de clima en la Tierra
+
+Tesis de Licenciatura en Física
+
+Universidad Pedagógica Nacional
+
+SANDRA PATRICIA MOLINA GARCÍA
+
+Directores: Giovanni Cardona, Ignacio Alberto Monroy Cañon, Santiago Vargas Domínguez

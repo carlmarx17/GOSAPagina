@@ -1,0 +1,123 @@
+document.addEventListener('DOMContentLoaded', () => {
+    // Generate Stars
+    const generateStars = (id, count) => {
+        const container = document.getElementById(id);
+        if (!container) return;
+
+        let shadows = '';
+        for (let i = 0; i < count; i++) {
+            const x = Math.floor(Math.random() * window.innerWidth);
+            const y = Math.floor(Math.random() * window.innerHeight);
+            const c = Math.random() > 0.8 ? '#9d4edd' : '#ffffff';
+            shadows += `${x}px ${y}px ${c}`;
+            if (i < count - 1) shadows += ', ';
+        }
+
+        container.style.width = '2px';
+        container.style.height = '2px';
+        container.style.background = 'transparent';
+        container.style.boxShadow = shadows;
+    };
+
+    generateStars('stars', 150);
+    generateStars('stars2', 100);
+    generateStars('stars3', 50);
+
+    // Scroll Effects
+    const header = document.getElementById('header');
+    const scrollAppears = document.querySelectorAll('.scroll-appear');
+
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+
+        scrollAppears.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                el.classList.add('visible');
+            }
+        });
+
+        // Active Nav Link Update
+        let current = '';
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            if (window.scrollY >= sectionTop - 200) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Trigger on load
+
+    // Mobile Menu Toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const nav = document.getElementById('navbar');
+
+    menuBtn.addEventListener('click', () => {
+        nav.classList.toggle('open');
+    });
+
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            if (nav.classList.contains('open')) {
+                nav.classList.remove('open');
+            }
+        });
+    });
+
+    // Tab Switching
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const target = btn.getAttribute('data-tab');
+
+            // Remove active class from all
+            tabBtns.forEach(b => b.classList.remove('active'));
+            tabPanes.forEach(p => p.classList.remove('active'));
+
+            // Add active class to target
+            btn.classList.add('active');
+            document.getElementById(target).classList.add('active');
+        });
+    });
+
+    // Team filtering
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const teamMembers = document.querySelectorAll('.team-member-card');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const filter = btn.getAttribute('data-filter');
+
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            teamMembers.forEach(member => {
+                if (filter === 'all') {
+                    member.classList.remove('hidden');
+                } else {
+                    if (member.classList.contains(filter)) {
+                        member.classList.remove('hidden');
+                    } else {
+                        member.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    });
+});
