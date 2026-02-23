@@ -717,3 +717,30 @@ nav ul {
     box-shadow: 0 0 60px rgba(255, 121, 0, 0.6);
     animation: pulse-glow 4s infinite alternate;
 }
+
+/* Filters */
+.filter-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.year-filter select {
+    background: var(--bg-card);
+    color: var(--text-main);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    cursor: pointer;
+    outline: none;
+    transition: var(--transition);
+    margin-left: 10px;
+}
+
+.year-filter select:hover,
+.year-filter select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 10px var(--primary-glow);
+}

@@ -120,4 +120,31 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+
+    // Publications Year Filter
+    const pubYearFilter = document.getElementById('pub-year-filter');
+    if (pubYearFilter) {
+        pubYearFilter.addEventListener('change', (e) => {
+            const y = e.target.value;
+            document.querySelectorAll('#pub-list .pub-item').forEach(item => {
+                item.style.display = (y === 'all' || item.getAttribute('data-year') === y) ? '' : 'none';
+            });
+        });
+    }
+
+    // Tesis Year and Dir Filters
+    const tesisYearFilter = document.getElementById('tesis-year-filter');
+    const tesisDirFilter = document.getElementById('tesis-dir-filter');
+    const applyTesisFilters = () => {
+        const y = tesisYearFilter ? tesisYearFilter.value : 'all';
+        const d = tesisDirFilter ? tesisDirFilter.value : 'all';
+        document.querySelectorAll('#tesis-list .tesis-item').forEach(item => {
+            const matchesYear = (y === 'all' || item.getAttribute('data-year') === y);
+            const matchesDir = (d === 'all' || item.getAttribute('data-dir') === d);
+            item.style.display = (matchesYear && matchesDir) ? '' : 'none';
+        });
+    };
+
+    if (tesisYearFilter) tesisYearFilter.addEventListener('change', applyTesisFilters);
+    if (tesisDirFilter) tesisDirFilter.addEventListener('change', applyTesisFilters);
 });
