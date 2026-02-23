@@ -140,7 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const d = tesisDirFilter ? tesisDirFilter.value : 'all';
         document.querySelectorAll('#tesis-list .tesis-item').forEach(item => {
             const matchesYear = (y === 'all' || item.getAttribute('data-year') === y);
-            const matchesDir = (d === 'all' || item.getAttribute('data-dir') === d);
+            const dirEl = item.querySelector('.tesis-directors');
+            const matchesDir = (d === 'all' || (dirEl && dirEl.textContent.includes(d)));
             item.style.display = (matchesYear && matchesDir) ? '' : 'none';
         });
     };
