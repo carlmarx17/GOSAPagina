@@ -572,11 +572,21 @@ nav ul {
     font-weight: 800;
 }
 
+.footer-logos {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .footer-logo {
     height: 60px;
     width: auto;
     object-fit: contain;
-    margin-bottom: 20px;
+}
+
+.gosa-logo-footer {
+    border-radius: 5px;
 }
 
 .footer-brand p {

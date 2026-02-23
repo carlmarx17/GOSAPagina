@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('#tesis-list .tesis-item').forEach(item => {
             const matchesYear = (y === 'all' || item.getAttribute('data-year') === y);
             const dirEl = item.querySelector('.tesis-directors');
-            const matchesDir = (d === 'all' || (dirEl && dirEl.textContent.includes(d)));
+            const matchesDir = (d === 'all' || (dirEl && dirEl.textContent.replace(/\s+/g, ' ').includes(d)));
             item.style.display = (matchesYear && matchesDir) ? '' : 'none';
         });
     };
