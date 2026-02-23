@@ -692,6 +692,7 @@ nav ul {
         gap: 40px;
     }
 }
+
 .about-image-wrapper {
     width: 100%;
     margin-bottom: 2rem;
@@ -743,4 +744,107 @@ nav ul {
 .year-filter select:focus {
     border-color: var(--primary);
     box-shadow: 0 0 10px var(--primary-glow);
+}
+
+/* Beautiful Lists */
+.prod-list-beautiful {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.glassmorphism-light {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.glassmorphism-light:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateX(5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pub-year-badge,
+.tesis-year-badge {
+    background: var(--gradient-brand);
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    box-shadow: 0 4px 15px var(--primary-glow);
+}
+
+.pub-content,
+.tesis-content {
+    flex: 1;
+}
+
+.pub-title,
+.tesis-title {
+    font-size: 1.2rem;
+    font-family: var(--font-heading);
+    margin-bottom: 8px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.pub-authors {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.tesis-author {
+    color: var(--text-main);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.tesis-cat {
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.tesis-directors {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.pub-link {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(157, 78, 221, 0.2);
+    border: 1px solid var(--primary);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.pub-link:hover {
+    background: var(--primary);
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+@media (max-width: 768px) {
+    .glassmorphism-light {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
 }
