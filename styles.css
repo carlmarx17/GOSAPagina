@@ -280,11 +280,27 @@ nav ul {
     0% {
         transform: scale(0.9);
         opacity: 0.5;
+        box-shadow: 0 0 40px rgba(255, 121, 0, 0.4);
     }
 
     100% {
         transform: scale(1.1);
         opacity: 0.8;
+        box-shadow: 0 0 100px rgba(255, 183, 3, 0.8);
+    }
+}
+
+.animated-sun {
+    animation: rotateSun 120s linear infinite;
+}
+
+@keyframes rotateSun {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
     }
 }
 
@@ -741,12 +757,16 @@ nav ul {
 }
 
 .hero-sun-img {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 60px rgba(255, 121, 0, 0.6);
-    animation: pulse-glow 4s infinite alternate;
+    box-shadow: 0 0 50px rgba(255, 121, 0, 0.5);
+    transition: var(--transition);
+}
+
+.hero-sun-img:hover {
+    box-shadow: 0 0 80px rgba(255, 183, 3, 0.8);
 }
 
 /* Filters */
