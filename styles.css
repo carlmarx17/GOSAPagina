@@ -665,6 +665,10 @@ nav ul {
     transform: translateY(0);
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* Responsive */
 .mobile-menu-btn {
     display: none;

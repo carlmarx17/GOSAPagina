@@ -137,7 +137,8 @@ document.addEventListener('DOMContentLoaded', () => {
         pubYearFilter.addEventListener('change', (e) => {
             const y = e.target.value;
             document.querySelectorAll('#pub-list .pub-item').forEach(item => {
-                item.style.display = (y === 'all' || item.getAttribute('data-year') === y) ? '' : 'none';
+                const matchesYear = (y === 'all' || item.getAttribute('data-year') === y);
+                item.classList.toggle('hidden', !matchesYear);
             });
         });
     }
@@ -152,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const matchesYear = (y === 'all' || item.getAttribute('data-year') === y);
             const dirEl = item.querySelector('.tesis-directors');
             const matchesDir = (d === 'all' || (dirEl && dirEl.textContent.replace(/\s+/g, ' ').includes(d)));
-            item.style.display = (matchesYear && matchesDir) ? '' : 'none';
+            item.classList.toggle('hidden', !(matchesYear && matchesDir));
         });
     };
 
