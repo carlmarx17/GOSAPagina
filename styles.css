@@ -618,8 +618,7 @@ nav ul {
     font-size: 1.2rem;
 }
 
-.footer-links a,
-.footer-social a {
+.footer-links a {
     display: block;
     color: var(--text-muted);
     text-decoration: none;
@@ -627,10 +626,39 @@ nav ul {
     transition: var(--transition);
 }
 
-.footer-links a:hover,
-.footer-social a:hover {
+.footer-links a:hover {
     color: var(--secondary);
     transform: translateX(5px);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-link {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: var(--transition);
+    backdrop-filter: blur(5px);
+}
+
+.social-link:hover {
+    background: var(--primary);
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px var(--primary-glow);
+    border-color: var(--primary);
 }
 
 .footer-bottom {
@@ -765,12 +793,15 @@ nav ul {
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 50px rgba(255, 121, 0, 0.5);
+    box-shadow: 0 0 60px rgba(255, 121, 0, 0.4);
     transition: var(--transition);
+    mix-blend-mode: screen;
+    filter: brightness(1.1) contrast(1.1);
 }
 
 .hero-sun-img:hover {
-    box-shadow: 0 0 80px rgba(255, 183, 3, 0.8);
+    box-shadow: 0 0 100px rgba(255, 183, 3, 0.6);
+    transform: scale(1.02);
 }
 
 /* Filters */
