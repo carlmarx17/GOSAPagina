@@ -1025,3 +1025,46 @@ nav ul {
         grid-template-columns: 1fr;
     }
 }
+
+/* Language Toggle and Flags */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.lang-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-toggle-btn.active {
+    background: rgba(157, 78, 221, 0.2);
+    box-shadow: 0 0 15px rgba(157, 78, 221, 0.3);
+}
+
+.lang-flag {
+    width: 26px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+body.lang-es .en {
+    display: none !important;
+}
+
+body.lang-en .es {
+    display: none !important;
+}
