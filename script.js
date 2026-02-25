@@ -159,4 +159,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (tesisYearFilter) tesisYearFilter.addEventListener('change', applyTesisFilters);
     if (tesisDirFilter) tesisDirFilter.addEventListener('change', applyTesisFilters);
+
+    // Language Initialization
+    const savedLang = localStorage.getItem('gosa_lang') || 'es';
+    setLang(savedLang);
 });
+
+// Global Language Switcher
+window.setLang = function (lang) {
+    document.body.classList.remove('lang-es', 'lang-en');
+    document.body.classList.add('lang-' + lang);
+    localStorage.setItem('gosa_lang', lang);
+
+    document.querySelectorAll('.lang-toggle-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    const activeBtn = document.getElementById('btn-' + lang);
+    if (activeBtn) activeBtn.classList.add('active');
+};

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoSA - Proyecto DynaSun</title>
+    <meta name="description"
+        content="Página oficial del Grupo de Astrofísica Solar (GoSA) del Observatorio Astronómico Nacional, Universidad Nacional de Colombia. Proyecto DynaSun.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .lang-en {
+            display: none;
+        }
+
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 2rem;
+        }
+
+        .lang-btn {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-family: var(--font-heading);
+            cursor: pointer;
+            transition: var(--transition);
+            margin-left: 10px;
+        }
+
+        .lang-btn.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: #fff;
+        }
+
+        .dynasun-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .dynasun-content h3 {
+            font-family: var(--font-heading);
+            color: var(--secondary);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .dynasun-content p,
+        .dynasun-content ul {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .dynasun-content ul {
+            padding-left: 2rem;
+        }
+
+        .dynasun-content li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Space Background -->
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <header id="header">
+        <div class="logo">
+            <img src="images/logo_gosa.jpg" alt="Logo GoSA" class="header-logo gosa-logo">
+            <span class="gradient-text">GoSA</span>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="index.html#acerca" class="nav-link">Acerca de</a></li>
+                <li><a href="index.html#novedades" class="nav-link active">Novedades</a></li>
+                <li><a href="index.html#investigacion" class="nav-link">Investigación</a></li>
+                <li><a href="index.html#integrantes" class="nav-link">Integrantes</a></li>
+                <li><a href="produccion.html" class="nav-link">Producción</a></li>
+                <li><a href="index.html#contacto" class="nav-link">Contacto</a></li>
+                <li><a href="index.html#colaboradores" class="nav-link">Colaboraciones</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn" id="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-spacing" style="padding-top: 150px;">
+            <div class="container fade-in scroll-appear">
+
+                <div class="lang-switch">
+                    <button class="lang-btn active" onclick="setLang('es', event)">Español</button>
+                    <button class="lang-btn" onclick="setLang('en', event)">English</button>
+                </div>
+
+                <!-- Contenido en Español -->
+                <div class="glassmorphism dynasun-content lang-es" style="padding: 40px;">
+                    <h2 class="section-title">Proyecto <span class="gradient-text">DynaSun</span></h2>
+
+                    <h3>Taller de la Red DynaSun: Ondas, Reconexión y Aceleración de Partículas en Fulguraciones Solares
+                    </h3>
+                    <p><strong>Lunes 2 de septiembre - Viernes 6 de septiembre de 2024</strong><br>
+                        Universidad de Northumbria (Newcastle upon Tyne, NE1 8ST, Reino Unido)</p>
+
+                    <h3>Fechas importantes:</h3>
+                    <ul>
+                        <li><strong>Junio 2024:</strong> Apertura de envío de resúmenes. Apertura de inscripciones.</li>
+                        <li><strong>5 de agosto de 2024:</strong> Cierre de envío de resúmenes.</li>
+                        <li><strong>2 al 6 de septiembre de 2024:</strong> Conferencia.</li>
+                    </ul>
+
+                    <h3>Dinámica de la corona solar en la era de observaciones intensivas de datos</h3>
+                    <p>La atmósfera solar es un sistema dinámico con fenómenos que incluyen fulguraciones solares,
+                        eyecciones de masa coronal, ondas magnetohidrodinámicas (MHD), oscilaciones de plasma y
+                        calentamiento dependiente del tiempo. En Física Solar, vivimos ahora en la era de observaciones
+                        intensivas de datos, por lo que, con las técnicas y la comprensión adecuadas, podemos comenzar a
+                        abordar preguntas fundamentales sobre los escenarios físicos de las liberaciones de energía y el
+                        calentamiento del plasma.</p>
+
+                    <p><strong>La Comisión Europea</strong> ha reconocido este desafío (y oportunidad científica) y por
+                        ello ha creado la red DynaSun: Dinámica de la corona solar en la era de observaciones intensivas
+                        de datos. Esta red internacional discutirá los desafíos clave en la física solar, incluyendo la
+                        comprensión de los mecanismos para el calentamiento del plasma, y la energética y los escenarios
+                        físicos de las liberaciones de energía como las fulguraciones y las eyecciones de masa coronal.
+                        El primer taller de la Red DynaSun se llevará a cabo del 2 al 6 de septiembre de 2024 en la
+                        Universidad de Northumbria, Newcastle upon Tyne, Reino Unido.</p>
+
+                    <p>Este primer taller se centrará en ondas, oscilaciones, aceleración de partículas y reconexión
+                        asociadas con fulguraciones solares, y consistirá en charlas invitadas y contribuidas sobre
+                        estos temas. El taller también incluirá tutoriales sobre técnicas avanzadas asociadas con
+                        observaciones intensivas de datos. Las presentaciones y tutoriales cubrirán las últimas
+                        investigaciones en estas áreas, incluyendo observaciones nuevas y emocionantes de los
+                        instrumentos STIX y EUI a bordo del Solar Orbiter. También damos la bienvenida a presentaciones
+                        sobre otros temas de investigación relevantes.</p>
+
+                    <p>También habrá una Cena de Conferencia y Excursión.</p>
+
+                    <h3>Organizadores</h3>
+                    <p><strong>Comité Organizador Científico:</strong></p>
+                    <ul>
+                        <li>James McLaughlin (Northumbria University, UK, Chair)</li>
+                        <li>Valery Nakariakov (Warwick University, UK)</li>
+                        <li>Tom Van Doorsselaere (KU Leuven, Belgium)</li>
+                        <li>Astrid Veronig (University of Graz, Austria)</li>
+                        <li>Pradeep Chitta (Max Planck Institute, Germany)</li>
+                        <li>Petr Jelínek (University of South Bohemia, Czech Republic)</li>
+                        <li>Santiago Vargas Domínguez (Universidad Nacional de Colombia)</li>
+                        <li>Mariana Cecere (CONICET, Argentina)</li>
+                        <li>Andrea Costa (CONICET, Argentina)</li>
+                        <li>Hebe Cremades (CONICET, Argentina)</li>
+                    </ul>
+
+                    <p><strong>Comité Organizador Local (Northumbria University, Newcastle, UK):</strong></p>
+                    <ul>
+                        <li>James McLaughlin (Chair)</li>
+                        <li>Ross Pallister</li>
+                        <li>Jeffersson Agudelo Rueda</li>
+                        <li>Rahul Sharma</li>
+                        <li>Ryan Smith</li>
+                        <li>Edris Tajfirouze</li>
+                        <li>Jordan Talbot</li>
+                        <li>Alex Tempest</li>
+                    </ul>
+
+                    <h3>Contáctenos:</h3>
+                    <p>Email: <a href="mailto:james.a.mclaughlin@northumbria.ac.uk" class="news-link"
+                            style="display:inline; padding:0; border:none; background:none;">james.a.mclaughlin@northumbria.ac.uk</a>
+                    </p>
+                </div>
+
+                <!-- English Content -->
+                <div class="glassmorphism dynasun-content lang-en" style="padding: 40px;">
+                    <h2 class="section-title"><span class="gradient-text">DynaSun</span> Project</h2>
+
+                    <h3>DynaSun Network workshop: Waves, Reconnection and Particle Acceleration in Solar Flares</h3>
+                    <p><strong>Monday 2nd September - Friday 6th September 2024</strong><br>
+                        Northumbria University (Newcastle upon Tyne, NE1 8ST, UK)</p>
+
+                    <h3>Important dates:</h3>
+                    <ul>
+                        <li><strong>June 2024:</strong> Abstract submission opens. Registration opens.</li>
+                        <li><strong>5th August 2024:</strong> Abstract submission closes.</li>
+                        <li><strong>2nd September 2024 - 6th September 2024:</strong> Conference itself.</li>
+                    </ul>
+
+                    <h3>Dynamics of the solar corona in the era of data intensive observations</h3>
+                    <p>The solar atmosphere is a dynamic system with phenomena including solar flares, coronal mass
+                        ejections, magnetohydrodynamic (MHD) waves, plasma oscillations and time-dependent heating. In
+                        Solar Physics, we are now living in the era of data intensive observations and so, with the
+                        right techniques and understanding, we can start to address fundamental questions around the
+                        physical scenarios of energy releases and plasma heating.</p>
+
+                    <p><strong>The European Commission</strong> has recognised this challenge (and scientific
+                        opportunity) and so has created the DynaSun Network: Dynamics of the solar corona in the era of
+                        data intensive observations. This international network will discuss key challenges in solar
+                        physics, including understanding of mechanisms for plasma heating, and energetics and physical
+                        scenarios of energy releases such as flares and coronal mass ejections. The first DynaSun
+                        Network workshop will be held on 2-6 September 2024 at Northumbria University, Newcastle upon
+                        Tyne, UK.</p>
+
+                    <p>This first workshop will focus on waves, oscillations, particle acceleration and reconnection
+                        associated with solar flares, and the workshop will consist of contributed and invited talks
+                        covering these topics. The workshop will also include tutorials on advanced techniques
+                        associated with data intensive observations. The presentations and tutorials will cover the
+                        latest research in these areas, including new and exciting observations from the STIX and EUI
+                        instruments on-board Solar Orbiter. We also welcome presentations around other relevant research
+                        topics.</p>
+
+                    <p>There will also be a Conference Dinner and Excursion.</p>
+
+                    <h3>Organisers</h3>
+                    <p><strong>Scientific Organising Committee:</strong></p>
+                    <ul>
+                        <li>James McLaughlin (Northumbria University, UK, Chair)</li>
+                        <li>Valery Nakariakov (Warwick University, UK)</li>
+                        <li>Tom Van Doorsselaere (KU Leuven, Belgium)</li>
+                        <li>Astrid Veronig (University of Graz, Austria)</li>
+                        <li>Pradeep Chitta (Max Planck Institute, Germany)</li>
+                        <li>Petr Jelínek (University of South Bohemia, Czech Republic)</li>
+                        <li>Santiago Vargas Domínguez (National University of Colombia)</li>
+                        <li>Mariana Cecere (National Scientific & Technical Research Council of Argentina)</li>
+                        <li>Andrea Costa (National Scientific & Technical Research Council of Argentina)</li>
+                        <li>Hebe Cremades (National Scientific & Technical Research Council of Argentina)</li>
+                    </ul>
+
+                    <p><strong>Local Organising Committee (Northumbria University, Newcastle, UK):</strong></p>
+                    <ul>
+                        <li>James McLaughlin (Chair)</li>
+                        <li>Ross Pallister</li>
+                        <li>Jeffersson Agudelo Rueda</li>
+                        <li>Rahul Sharma</li>
+                        <li>Ryan Smith</li>
+                        <li>Edris Tajfirouze</li>
+                        <li>Jordan Talbot</li>
+                        <li>Alex Tempest</li>
+                    </ul>
+
+                    <h3>Contact us:</h3>
+                    <p>Email: <a href="mailto:james.a.mclaughlin@northumbria.ac.uk" class="news-link"
+                            style="display:inline; padding:0; border:none; background:none;">james.a.mclaughlin@northumbria.ac.uk</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logos">
+                        <img src="images/logo_oan.png" alt="Logo OAN" class="footer-logo">
+                        <img src="images/addb59_f11bf82202fb41088f8ddf86c8ed0365_mv2.jpg" alt="Logo GoSA"
+                            class="footer-logo gosa-logo-footer">
+                    </div>
+                    <h2 class="gradient-text">GoSA</h2>
+                    <p>Grupo de Astrofísica Solar</p>
+                    <p>Observatorio Astronómico Nacional<br>Universidad Nacional de Colombia</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#acerca">Acerca de nosotros</a>
+                    <a href="index.html#novedades">Novedades</a>
+                    <a href="index.html#investigacion">Investigación</a>
+                    <a href="index.html#integrantes">Equipo</a>
+                    <a href="index.html#colaboradores">Colaboradores</a>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i> <span>X
+                                (Twitter)</span></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-github"></i> <span>GitHub</span></a>
+                        <a href="https://www.facebook.com/gosaOAN" target="_blank" rel="noopener" class="social-link"><i
+                                class="fa-brands fa-facebook-f"></i> <span>Facebook</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Grupo de Astrofísica Solar (GoSA). Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function setLang(lang, event) {
+            document.querySelectorAll('.dynasun-content').forEach(el => {
+                el.style.display = 'none';
+            });
+            document.querySelector('.lang-' + lang).style.display = 'block';
+
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            if (event) {
+                event.target.classList.add('active');
+            }
+        }
+    </script>
+</body>
+
+</html>
