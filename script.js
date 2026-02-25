@@ -176,4 +176,9 @@ window.setLang = function (lang) {
     });
     const activeBtn = document.getElementById('btn-' + lang);
     if (activeBtn) activeBtn.classList.add('active');
+
+    // Update placeholder text in form inputs/textareas
+    document.querySelectorAll('[data-es-placeholder]').forEach(el => {
+        el.placeholder = lang === 'es' ? el.getAttribute('data-es-placeholder') : el.getAttribute('data-en-placeholder');
+    });
 };
