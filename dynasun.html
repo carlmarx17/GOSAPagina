@@ -12,10 +12,38 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .dynasun-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .dynasun-content h3 {
+            font-family: var(--font-heading);
+            color: var(--secondary);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .dynasun-content p,
+        .dynasun-content ul {
+            margin-bottom: 1.5rem;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+        }
+
+        .dynasun-content ul {
+            padding-left: 2rem;
+        }
+
+        .dynasun-content li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
 
 <body class="lang-es">
-
     <!-- Space Background -->
     <div id="stars"></div>
     <div id="stars2"></div>
@@ -42,11 +70,13 @@
                             class="en">Production</span></a></li>
                 <li><a href="index.html#contacto" class="nav-link"><span class="es">Contacto</span><span
                             class="en">Contact</span></a></li>
+                <li><a href="index.html#colaboradores" class="nav-link"><span class="es">Colaboraciones</span><span
+                            class="en">Collaborators</span></a></li>
                 <li class="lang-switcher">
-                    <button class="lang-toggle-btn active" onclick="setLang('es')" id="btn-es" title="Español">
+                    <button class="lang-toggle-btn active" onclick="setLang('es', event)" id="btn-es" title="Español">
                         <img src="https://flagcdn.com/w40/co.png" alt="Colombia Flag" class="lang-flag">
                     </button>
-                    <button class="lang-toggle-btn" onclick="setLang('en')" id="btn-en" title="English">
+                    <button class="lang-toggle-btn" onclick="setLang('en', event)" id="btn-en" title="English">
                         <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" class="lang-flag">
                     </button>
                 </li>
@@ -63,7 +93,7 @@
         <section class="section-spacing" style="padding-top: 150px;">
             <div class="container fade-in scroll-appear">
 
-                <div class="glassmorphism dynasun-content" style="padding: 40px; max-width: 900px; margin: 0 auto;">
+                <div class="glassmorphism dynasun-content" style="padding: 40px; max-width: 1000px; margin: 0 auto;">
                     <div class="dynasun-header" style="text-align: center; margin-bottom: 2rem;">
                         <img src="images/hero-bg.png" alt="DynaSun"
                             style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 10px; margin-bottom: 20px; opacity: 0.8;">
@@ -73,148 +103,82 @@
                     </div>
 
                     <div class="es">
-                        <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 25px;">
-                            Para el <strong>Grupo de Astrofísica Solar (GoSA)</strong>, ser parte de la red
-                            <strong>DynaSun</strong> ("Dinámica de la corona solar en la era de observaciones intensivas
-                            de datos") representa <strong>el proyecto de colaboración internacional más grande de
-                                nuestra historia en la Universidad</strong>.
-                        </p>
+                        <p>Este proyecto tiene como objetivo establecer una estrecha colaboración de investigación entre
+                            varios institutos de investigación líderes europeos y sudamericanos especializados en física
+                            solar, y obtener nuevos conocimientos paradigmáticos sobre los procesos dinámicos en la
+                            atmósfera solar. Esto se logrará a través de un intercambio sistemático de investigadores y
+                            conocimientos, y esfuerzos conjuntos de investigación utilizando datos e instalaciones
+                            existentes, incluyendo técnicas innovadoras de análisis de datos basadas en enfoques de
+                            aprendizaje automático (machine learning).</p>
 
-                        <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 25px;">
-                            Apoyados por la Comisión Europea, este ambicioso proyecto nos permite crear un puente
-                            directo entre nuestro grupo en Colombia e instituciones en todo el mundo. DynaSun facilitará
-                            <strong>intercambios sin precedentes</strong>, permitiendo que nuestros estudiantes y
-                            miembros investigadores viajen a universidades de todo el planeta, y que de la misma manera,
-                            recibamos a investigadores globales de la más alta categoría aquí en nuestro observatorio.
-                            Es una oportunidad vital para resolver los problemas de calentamiento de plasma en nuestra
-                            estrella.
-                        </p>
+                        <p>El impacto científico esperado es un avance significativo en nuestro conocimiento de los
+                            procesos físicos clave que ocurren en la atmósfera solar, incluyendo avances revolucionarios
+                            para desentrañar el mecanismo de calentamiento coronal, avances transformacionales en
+                            nuestra comprensión de las energías impulsivas como las fulguraciones solares y las CME,
+                            avances significativos en la teoría de ondas MHD y la primera aplicación de técnicas de
+                            aprendizaje automático al estudio de los procesos de ondas en la atmósfera solar.</p>
 
-                        <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 25px;">
-                            En el marco de esta iniciativa global, nos complace hacer eco del primer taller de la red:
-                        </p>
-
-                        <div
-                            style="background: rgba(157, 78, 221, 0.1); border-left: 4px solid var(--primary); padding: 20px; border-radius: 0 10px 10px 0; margin-bottom: 30px;">
-                            <h3 style="color: var(--secondary); margin-bottom: 15px; font-family: var(--font-heading);">
-                                Taller: Ondas, Reconexión y Aceleración de Partículas en Fulguraciones Solares</h3>
-                            <ul style="list-style: none; padding-left: 0;">
-                                <li style="margin-bottom: 10px;"><i class="fa-regular fa-calendar"
-                                        style="color: var(--primary); width: 25px;"></i> <strong>Lunes 2 - Viernes 6 de
-                                        septiembre de 2024</strong></li>
-                                <li style="margin-bottom: 10px;"><i class="fa-solid fa-location-dot"
-                                        style="color: var(--primary); width: 25px;"></i> <strong>Northumbria
-                                        University</strong> (Newcastle upon Tyne, Reino Unido)</li>
-                            </ul>
-                        </div>
-
-                        <h3 style="color: var(--text-main); margin-bottom: 15px; font-family: var(--font-heading);">El
-                            foco del taller</h3>
-                        <p style="margin-bottom: 25px;">Este primer taller profundizará en ondas, oscilaciones,
-                            aceleración de partículas y reconexión magnética. Además de charlas especializadas, incluirá
-                            tutoriales sobre técnicas computacionales avanzadas aplicadas a datos masivos, abarcando las
-                            revolucionarias observaciones recientes de los instrumentos STIX y EUI a bordo del satélite
-                            <em>Solar Orbiter</em>.</p>
-
-                        <h3 style="color: var(--text-main); margin-bottom: 15px; font-family: var(--font-heading);">
-                            Fechas importantes</h3>
-                        <ul style="padding-left: 20px; margin-bottom: 30px;">
-                            <li style="margin-bottom: 10px;"><strong>Junio 2024:</strong> Apertura de envío de resúmenes
-                                e inscripciones.</li>
-                            <li style="margin-bottom: 10px;"><strong>5 de agosto de 2024:</strong> Cierre de recibo de
-                                resúmenes.</li>
-                            <li style="margin-bottom: 10px;"><strong>2 al 6 de septiembre de 2024:</strong> Desarrollo
-                                de la conferencia.</li>
+                        <p>El proyecto incluye cuatro paquetes de trabajo científico que abordan desafíos clave
+                            específicos en la física solar moderna y la heliofísica:</p>
+                        <ul>
+                            <li>Pulsaciones cuasi-periódicas en fulguraciones solares.</li>
+                            <li>Calentamiento por ondas y acoplamiento a la atmósfera inferior.</li>
+                            <li>Desarrollo de la morfología tridimensional de CME y oscilaciones cinemáticas de
+                                eyecciones de masa coronal.</li>
+                            <li>Comunicación y difusión.</li>
                         </ul>
 
-                        <h3 style="color: var(--text-main); margin-bottom: 15px; font-family: var(--font-heading);">
-                            Comité Organizador Principal</h3>
-                        <p style="margin-bottom: 25px;">El comité científico incluye investigadores de clase mundial de
-                            Northumbria University, Warwick University, KU Leuven, Max Planck Institute y el
-                            <strong>Prof. Santiago Vargas Domínguez por parte de nuestro nodo en la Universidad Nacional
-                                de Colombia</strong>, entre otros colegas de Sudamérica y Europa.</p>
+                        <p>Los impactos económicos y tecnológicos esperados incluyen adquirir experiencia directa en el
+                            análisis de procesos oscilatorios complejos, experiencia en el diseño y aplicación de
+                            técnicas de aprendizaje automático para el reconocimiento de patrones, nuevas tecnologías
+                            para el análisis de procesos oscilatorios, y técnicas de diagnóstico de parámetros de
+                            entrada para modelos de predicción del clima espacial. También se espera el establecimiento
+                            de instalaciones para el intercambio de conocimientos con socios extranjeros e industrias
+                            locales, y la formación de profesionales altamente calificados en modelado numérico y
+                            análisis de datos.</p>
 
-                        <div
-                            style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
-                            <p style="margin-bottom: 15px;">Para mayor información, póngase en contacto con la
-                                organización central:</p>
-                            <a href="mailto:james.a.mclaughlin@northumbria.ac.uk" class="btn btn-primary"
-                                style="display: inline-flex; align-items: center; gap: 10px;">
-                                <i class="fa-regular fa-envelope"></i> james.a.mclaughlin@northumbria.ac.uk
-                            </a>
-                        </div>
+                        <p>El impacto social esperado es fortalecer los vínculos de investigación entre las comunidades
+                            de investigación europeas y americanas, mejorar la conciencia pública sobre los problemas
+                            modernos de investigación y desarrollo en física solar y heliofísica, y motivar a los
+                            estudiantes a seguir carreras científicas.</p>
                     </div>
 
                     <div class="en">
-                        <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 25px;">
-                            For the <strong>Solar Astrophysics Group (GoSA)</strong>, being part of the
-                            <strong>DynaSun</strong> network ("Dynamics of the solar corona in the era of data-intensive
-                            observations") represents <strong>the largest international collaboration project in our
-                                university's history</strong>.
-                        </p>
+                        <p>This project aims to establish a close research collaboration between several leading
+                            European and South American research institutes specialized in solar physics and to gain new
+                            paradigmatic insights into the dynamic processes in the solar atmosphere, through a
+                            systematic exchange of researchers and knowledge and joint research efforts using existing
+                            data and facilities, including innovative data analysis techniques based on machine learning
+                            approaches.</p>
 
-                        <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 25px;">
-                            Backed by the European Commission, this ambitious project builds a direct bridge between our
-                            group in Colombia and institutions across the globe. DynaSun will facilitate
-                            <strong>unprecedented exchanges</strong>, allowing our students and researching members to
-                            travel to universities worldwide, while simultaneously welcoming top-tier global researchers
-                            to our observatory. This provides a vital opportunity to solve the problems of plasma
-                            heating in our star.
-                        </p>
+                        <p>The expected scientific impact is a significant advancement in our knowledge of key physical
+                            processes occurring in the solar atmosphere, including breakthroughs in unraveling the
+                            mechanism of coronal heating, transformational advances in our understanding of impulsive
+                            energies such as solar flares and CMEs, significant advances in MHD wave theory, and the
+                            first application of machine learning techniques to the study of wave processes in the solar
+                            atmosphere.</p>
 
-                        <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 25px;">
-                            Within this framework, we proudly share the first workshop of the network:
-                        </p>
-
-                        <div
-                            style="background: rgba(157, 78, 221, 0.1); border-left: 4px solid var(--primary); padding: 20px; border-radius: 0 10px 10px 0; margin-bottom: 30px;">
-                            <h3 style="color: var(--secondary); margin-bottom: 15px; font-family: var(--font-heading);">
-                                Workshop: Waves, Reconnection and Particle Acceleration in Solar Flares</h3>
-                            <ul style="list-style: none; padding-left: 0;">
-                                <li style="margin-bottom: 10px;"><i class="fa-regular fa-calendar"
-                                        style="color: var(--primary); width: 25px;"></i> <strong>Monday 2nd - Friday 6th
-                                        September 2024</strong></li>
-                                <li style="margin-bottom: 10px;"><i class="fa-solid fa-location-dot"
-                                        style="color: var(--primary); width: 25px;"></i> <strong>Northumbria
-                                        University</strong> (Newcastle upon Tyne, UK)</li>
-                            </ul>
-                        </div>
-
-                        <h3 style="color: var(--text-main); margin-bottom: 15px; font-family: var(--font-heading);">
-                            Workshop Focus</h3>
-                        <p style="margin-bottom: 25px;">This first workshop focuses on waves, oscillations, particle
-                            acceleration and magnetic reconnection. Alongside specialised talks, it will feature
-                            tutorials on advanced computational techniques applied to intensive datasets, including the
-                            revolutionary recent observations from the STIX and EUI instruments aboard the <em>Solar
-                                Orbiter</em>.</p>
-
-                        <h3 style="color: var(--text-main); margin-bottom: 15px; font-family: var(--font-heading);">
-                            Important Dates</h3>
-                        <ul style="padding-left: 20px; margin-bottom: 30px;">
-                            <li style="margin-bottom: 10px;"><strong>June 2024:</strong> Abstract submission and
-                                registration open.</li>
-                            <li style="margin-bottom: 10px;"><strong>5th August 2024:</strong> Abstract submission
-                                closes.</li>
-                            <li style="margin-bottom: 10px;"><strong>2nd to 6th September 2024:</strong> Conference
-                                runs.</li>
+                        <p>The project includes four scientific work packages that address specific key challenges in
+                            modern solar physics and heliophysics:</p>
+                        <ul>
+                            <li>Quasi-periodic pulsations in solar flares.</li>
+                            <li>Wave heating and coupling to the lower atmosphere.</li>
+                            <li>The development of three-dimensional CME morphology and kinematic oscillations of
+                                coronal mass exclusion.</li>
+                            <li>Communication and dissemination.</li>
                         </ul>
 
-                        <h3 style="color: var(--text-main); margin-bottom: 15px; font-family: var(--font-heading);">Main
-                            Organising Committee</h3>
-                        <p style="margin-bottom: 25px;">The scientific committee features world-class researchers from
-                            Northumbria University, Warwick University, KU Leuven, the Max Planck Institute, and
-                            <strong>Prof. Santiago Vargas Domínguez representing our node at the Universidad Nacional de
-                                Colombia</strong>, along with colleagues from South America and Europe.</p>
+                        <p>Expected economic and technological impacts include gaining direct experience in the analysis
+                            of complex oscillatory processes, experience in the design and application of machine
+                            learning techniques for pattern recognition, new technologies for the analysis of
+                            oscillatory processes, and input parameter diagnostic techniques for space weather
+                            prediction models, the establishment of facilities for knowledge exchange with foreign
+                            partners with local industries, and the training of highly skilled professionals in
+                            numerical modeling and data analysis.</p>
 
-                        <div
-                            style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
-                            <p style="margin-bottom: 15px;">For more information, please contact the central
-                                organisation team:</p>
-                            <a href="mailto:james.a.mclaughlin@northumbria.ac.uk" class="btn btn-primary"
-                                style="display: inline-flex; align-items: center; gap: 10px;">
-                                <i class="fa-regular fa-envelope"></i> james.a.mclaughlin@northumbria.ac.uk
-                            </a>
-                        </div>
+                        <p>The expected societal impact is to strengthen research links between the European and US
+                            research communities, to improve public awareness of modern solar and heliophysics research
+                            and development issues, and to motivate school students to pursue scientific careers.</p>
                     </div>
 
                 </div>
@@ -270,6 +234,10 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Use global setLang from script.js, override if needed but better rely on script.js
+        // If we want dynasun specific logic we could put it here, but global script handles .es / .en just fine!
+    </script>
 </body>
 
 </html>
