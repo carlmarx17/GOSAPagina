@@ -364,14 +364,23 @@ nav ul {
 
 /* Research Section */
 .research-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
 .research-card {
     padding: 40px 30px;
     text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease-out, box-shadow 0.3s ease-out;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.research-card:hover {
+    box-shadow: 0 10px 40px rgba(0, 180, 216, 0.4);
+    border-color: var(--primary);
 }
 
 .card-icon {
@@ -382,12 +391,77 @@ nav ul {
 .research-card h3 {
     font-family: var(--font-heading);
     margin-bottom: 15px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    color: var(--text-main);
 }
 
-.research-card p {
+.research-card p.summary {
     color: var(--text-muted);
-    font-size: 0.95rem;
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.research-details {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out, opacity 0.5s ease-in-out, margin 0.5s ease-in-out;
+    text-align: left;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.research-card.expanded .research-details {
+    max-height: 3500px;
+    opacity: 1;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 30px;
+}
+
+.research-detail-img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.research-text h4 {
+    font-family: var(--font-heading);
+    color: var(--secondary);
+    margin: 25px 0 10px;
+    font-size: 1.3rem;
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+}
+
+.research-text p {
+    color: #e0e0e0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.research-text ul {
+    margin-bottom: 20px;
+    padding-left: 25px;
+    list-style-type: disc;
+}
+
+.research-text li {
+    color: #e0e0e0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.research-text li strong {
+    color: var(--primary);
 }
 
 /* Team Section */

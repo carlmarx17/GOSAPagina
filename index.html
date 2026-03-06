@@ -168,45 +168,307 @@
                 </p>
 
                 <div class="research-grid">
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/solar_optics.png'); background-size: cover; background-position: center;">
+                    <!-- 1. Óptica en Alta Resolución -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('images/solar_optics.png'); background-size: cover; background-position: center;">
                         <div class="card-icon">🔭</div>
-                        <h3><span class="es">Óptico en Alta Resolución</span><span class="en">High-Resolution
-                                Optics</span></h3>
-                        <p><span class="es">Estudio de movimientos propios, puntos magnéticos brillantes, manchas
-                                solares y espectropolarimetría a través de telescopios terrestres de gran
-                                escala.</span><span class="en">Study of proper motions, magnetic bright points, sunspots
-                                and spectropolarimetry through large-scale ground-based telescopes.</span></p>
+                        <h3>
+                            <span class="es">1. Óptica en Alta Resolución: Dinámica y Magnetismo Fotosférico</span>
+                            <span class="en">1. High-Resolution Optics: Photospheric Dynamics and Magnetism</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre el estudio de la fotosfera solar, la
+                                dinámica del plasma y los fenómenos magnéticos.</span>
+                            <span class="en">Click to discover more about the study of the solar photosphere, plasma
+                                dynamics, and magnetic phenomena.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="Media/manchasolar.gif" alt="Dinámica en Alta Resolución"
+                                class="research-detail-img">
+                            <div class="research-text es">
+                                <p>Esta línea se centra en el estudio de la <strong>fotosfera solar</strong>, la
+                                    "superficie" visible del Sol, donde la interacción entre el plasma y los campos
+                                    magnéticos genera los fenómenos más fascinantes de la astrofísica estelar.
+                                    Trabajamos en <strong>dinámica</strong> mediante el análisis de flujos de plasma y
+                                    la evolución temporal de estructuras a pequeña escala.</p>
+                                <h4>El Corazón de la Dinámica: Movimientos Propios y Flujos</h4>
+                                <p>El estudio de la dinámica fotosférica implica rastrear cómo se mueven las estructuras
+                                    solares. Utilizamos técnicas como el <strong>Local Correlation Tracking
+                                        (LCT)</strong> para medir los movimientos propios de los <strong>Puntos
+                                        Brillantes Magnéticos (MBPs)</strong> y las <strong>Manchas Solares</strong>.
+                                    Estos movimientos no son aleatorios; revelan la transferencia de energía desde el
+                                    interior solar hacia las capas superiores. Investigamos cómo los puntos brillantes
+                                    son arrastrados por los flujos granulares y cómo las <strong>Moving Magnetic
+                                        Features (MMF)</strong> se desprenden de la penumbra de las manchas,
+                                    transportando flujo magnético hacia la red solar.</p>
+                                <h4>Espectropolarimetría y Diagnóstico Físico</h4>
+                                <p>Para entender la física detrás del movimiento, aplicamos la espectropolarimetría. A
+                                    través de los <strong>Parámetros de Stokes</strong> ($I, Q, U, V$), podemos
+                                    reconstruir el vector del campo magnético y las velocidades Doppler.</p>
+                                <ul>
+                                    <li><strong>Velocidades Doppler:</strong> Nos permiten medir oscilaciones y flujos
+                                        verticales en la penumbra de las manchas.</li>
+                                    <li><strong>Inversión de la transferencia radiante:</strong> Utilizamos códigos para
+                                        extraer la temperatura, presión y campo magnético del plasma a diferentes
+                                        alturas.</li>
+                                </ul>
+                                <p>Esta línea utiliza datos de los telescopios solares más grandes del mundo, como el
+                                    <strong>GREGOR</strong> y el <strong>VTT</strong> (Tenerife), y el
+                                    <strong>SST</strong> (La Palma), permitiéndonos observar detalles de apenas unos
+                                    cientos de kilómetros sobre la superficie solar.
+                                </p>
+                            </div>
+                            <div class="research-text en">
+                                <p>This line focuses on the study of the <strong>solar photosphere</strong>, the visible
+                                    "surface" of the Sun, where the interaction between plasma and magnetic fields
+                                    generates the most fascinating phenomena of stellar astrophysics. We work on
+                                    <strong>dynamics</strong> by analyzing plasma flows and the temporal evolution of
+                                    small-scale structures.
+                                </p>
+                                <h4>The Heart of Dynamics: Proper Motions and Flows</h4>
+                                <p>The study of photospheric dynamics involves tracking how solar structures move. We
+                                    use techniques like <strong>Local Correlation Tracking (LCT)</strong> to measure the
+                                    proper motions of <strong>Magnetic Bright Points (MBPs)</strong> and
+                                    <strong>Sunspots</strong>. These movements are not random; they reveal the transfer
+                                    of energy from the solar interior to the upper layers. We investigate how bright
+                                    points are dragged by granular flows and how <strong>Moving Magnetic Features
+                                        (MMF)</strong> detach from the penumbra of sunspots, transporting magnetic flux
+                                    to the solar network.
+                                </p>
+                                <h4>Spectropolarimetry and Physical Diagnostics</h4>
+                                <p>To understand the physics behind the movement, we apply spectropolarimetry. Through
+                                    the <strong>Stokes Parameters</strong> ($I, Q, U, V$), we can reconstruct the
+                                    magnetic field vector and Doppler velocities.</p>
+                                <ul>
+                                    <li><strong>Doppler Velocities:</strong> Allow us to measure oscillations and
+                                        vertical flows in the penumbra of sunspots.</li>
+                                    <li><strong>Radiative transfer inversion:</strong> We use codes to extract the
+                                        temperature, pressure, and magnetic field of the plasma at different heights.
+                                    </li>
+                                </ul>
+                                <p>This line uses data from the largest solar telescopes in the world, such as
+                                    <strong>GREGOR</strong> and <strong>VTT</strong> (Tenerife), and the
+                                    <strong>SST</strong> (La Palma), allowing us to observe details of just a few
+                                    hundred kilometers on the solar surface.
+                                </p>
+                            </div>
+                        </div>
                     </article>
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/hero-bg.png'); background-size: cover; background-position: center;">
+
+                    <!-- 2. Observación en Radio y Rayos X -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('images/hero-bg.png'); background-size: cover; background-position: center;">
                         <div class="card-icon">📡</div>
-                        <h3><span class="es">Observación en Radio y Rayos X</span><span class="en">Radio and X-Ray
-                                Observation</span></h3>
-                        <p><span class="es">Análisis de la cromosfera, altas energías, fulguraciones solares y
-                                espectroscopía utilizando instalaciones como ALMA y misiones satelitales.</span><span
-                                class="en">Analysis of the chromosphere, high energies, solar flares and spectroscopy
-                                using facilities such as ALMA and satellite missions.</span></p>
+                        <h3>
+                            <span class="es">2. Observación en Radio y Rayos X: Altas Energías y la Cromosfera</span>
+                            <span class="en">2. Radio and X-Ray Observation: High Energies and the Chromosphere</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre estudios de eventos violentos solares,
+                                radiación y aceleración de partículas.</span>
+                            <span class="en">Click to learn more about the study of violent solar events, radiation, and
+                                particle acceleration.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="Media/imagenflare.gif" alt="Radio y Rayos X" class="research-detail-img">
+                            <div class="research-text es">
+                                <p>Esta línea explora los eventos más violentos del Sol: las <strong>fulguraciones
+                                        solares (flares)</strong>. Mientras que la óptica ve la superficie, el radio y
+                                    los rayos X nos permiten "ver" la atmósfera exterior (cromosfera y corona) y las
+                                    partículas aceleradas a velocidades cercanas a la de la luz.</p>
+                                <h4>Sismicidad Solar y Aceleración de Partículas</h4>
+                                <p>Un foco principal es la <strong>heliosismología local</strong> asociada a
+                                    fulguraciones. Investigamos los "sismos solares", ondas acústicas generadas por el
+                                    impacto de haces de partículas en la fotosfera durante un flare. Analizamos la
+                                    <strong>aceleración estocástica de electrones</strong>, buscando entender cómo la
+                                    reconexión magnética libera energía de forma tan eficiente que puede afectar las
+                                    comunicaciones en la Tierra.
+                                </p>
+                                <h4>Instrumentación y Radioastronomía</h4>
+                                <p>El grupo no solo analiza datos, sino que construye tecnología. Proyectos como el
+                                    <strong>Radiointerferómetro Solar (IMFR 11GHz)</strong> buscan monitorear la emisión
+                                    de radio solar desde Colombia.
+                                </p>
+                                <ul>
+                                    <li><strong>ALMA y FOXSI:</strong> Utilizamos datos del radiotelescopio ALMA para
+                                        estudiar la cromosfera y participamos en el análisis de misiones como FOXSI para
+                                        la detección de rayos X duros, esenciales para localizar los sitios de
+                                        aceleración de partículas.</li>
+                                    <li><strong>Espectroscopía:</strong> Estudiamos la respuesta multitérmica de la
+                                        atmósfera solar, integrando datos de satélites como el <strong>SDO (Solar
+                                            Dynamics Observatory)</strong> para entender cómo un flare calienta el
+                                        plasma a millones de grados en segundos.</li>
+                                </ul>
+                            </div>
+                            <div class="research-text en">
+                                <p>This line explores the most violent events of the Sun: <strong>solar flares</strong>.
+                                    While optics see the surface, radio and X-rays allow us to "see" the outer
+                                    atmosphere (chromosphere and corona) and particles accelerated to speeds close to
+                                    that of light.</p>
+                                <h4>Solar Seismicity and Particle Acceleration</h4>
+                                <p>A main focus is <strong>local helioseismology</strong> associated with flares. We
+                                    investigate "solar quakes", acoustic waves generated by the impact of particle beams
+                                    on the photosphere during a flare. We analyze the <strong>stochastic acceleration of
+                                        electrons</strong>, seeking to understand how magnetic reconnection releases
+                                    energy so efficiently that it can affect communications on Earth.</p>
+                                <h4>Instrumentation and Radio Astronomy</h4>
+                                <p>The group not only analyzes data but also builds technology. Projects like the
+                                    <strong>Solar Radio Interferometer (IMFR 11GHz)</strong> seek to monitor solar radio
+                                    emission from Colombia.
+                                </p>
+                                <ul>
+                                    <li><strong>ALMA and FOXSI:</strong> We use data from the ALMA radio telescope to
+                                        study the chromosphere and participate in the analysis of missions like FOXSI
+                                        for hard X-ray detection, essential for locating particle acceleration sites.
+                                    </li>
+                                    <li><strong>Spectroscopy:</strong> We study the multithermal response of the solar
+                                        atmosphere, integrating data from satellites like the <strong>SDO (Solar
+                                            Dynamics Observatory)</strong> to understand how a flare heats the plasma to
+                                        millions of degrees in seconds.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </article>
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/space_weather.png'); background-size: cover; background-position: center;">
+
+                    <!-- 3. Clima Espacial -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('images/space_weather.png'); background-size: cover; background-position: center;">
                         <div class="card-icon">🌍</div>
-                        <h3><span class="es">Clima Espacial</span><span class="en">Space Weather</span></h3>
-                        <p><span class="es">Investigación del viento solar, Eyecciones de Masa Coronal (CME), campos
-                                magnéticos interplanetarios y sus efectos en las relaciones Sol-Tierra.</span><span
-                                class="en">Research into solar wind, Coronal Mass Ejections (CMEs), interplanetary
-                                magnetic fields and their effects on Sun-Earth relations.</span></p>
+                        <h3>
+                            <span class="es">3. Clima Espacial (Space Weather): Relación Sol-Tierra</span>
+                            <span class="en">3. Space Weather: Sun-Earth Relationship</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre cómo la actividad solar afecta a los
+                                planetas y nuestro entorno tecnológico.</span>
+                            <span class="en">Click to learn more about how solar activity affects planets and our
+                                technological environment.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="Media/camposol.png" alt="Clima Espacial" class="research-detail-img">
+                            <div class="research-text es">
+                                <p>El <strong>Clima Espacial</strong> es la rama aplicada que estudia cómo la actividad
+                                    solar afecta el entorno tecnológico y biológico de los planetas. Esta línea conecta
+                                    la física solar pura con la geofísica y la exploración espacial.</p>
+                                <h4>Viento Solar y CMEs</h4>
+                                <p>Investigamos las <strong>Eyecciones de Masa Coronal (CMEs)</strong>, inmensas nubes
+                                    de plasma magnetizado que viajan por el medio interplanetario. Estudiamos su
+                                    propagación y cómo sus campos magnéticos interactúan con la magnetosfera terrestre.
+                                    El análisis del viento solar y sus propiedades anisotrópicas nos permite entender la
+                                    turbulencia del plasma que baña nuestro sistema solar.</p>
+                                <h4>Impacto Planetario y Terrestre</h4>
+                                <ul>
+                                    <li><strong>Geomagnetismo:</strong> Utilizamos datos de observatorios locales (como
+                                        Fúquene, Colombia) para estudiar las tormentas geomagnéticas inducidas por el
+                                        Sol.</li>
+                                    <li><strong>Atmósferas Planetarias:</strong> Extendemos nuestra investigación a
+                                        otros mundos, analizando cómo el ciclo solar de 11 años afecta la variabilidad
+                                        de la atmósfera de Marte, lo cual es crítico para futuras misiones tripuladas.
+                                    </li>
+                                    <li><strong>Astrobiología:</strong> Incluso exploramos los efectos de la radiación
+                                        UV solar en sistemas biológicos (como cultivos de quinoa), simulando ambientes
+                                        extremos para entender la habitabilidad planetaria.</li>
+                                </ul>
+                            </div>
+                            <div class="research-text en">
+                                <p><strong>Space Weather</strong> is the applied branch that studies how solar activity
+                                    affects the technological and biological environment of planets. This line connects
+                                    pure solar physics with geophysics and space exploration.</p>
+                                <h4>Solar Wind and CMEs</h4>
+                                <p>We investigate <strong>Coronal Mass Ejections (CMEs)</strong>, massive clouds of
+                                    magnetized plasma traveling through the interplanetary medium. We study their
+                                    propagation and how their magnetic fields interact with the Earth's magnetosphere.
+                                    Analyzing the solar wind and its anisotropic properties allows us to understand the
+                                    turbulence of the plasma that bathes our stellar system.</p>
+                                <h4>Planetary and Terrestrial Impact</h4>
+                                <ul>
+                                    <li><strong>Geomagnetism:</strong> We use data from local observatories (like
+                                        Fúquene, Colombia) to study geomagnetic storms induced by the Sun.</li>
+                                    <li><strong>Planetary Atmospheres:</strong> We extend our research to other worlds,
+                                        analyzing how the 11-year solar cycle affects the atmospheric variability of
+                                        Mars, critical for future manned missions.</li>
+                                    <li><strong>Astrobiology:</strong> We even explore the effects of solar UV radiation
+                                        on biological systems (like quinoa crops), simulating extreme environments to
+                                        understand planetary habitability.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </article>
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/hero-bg.png'); background-size: cover; background-position: center;">
+
+                    <!-- 4. Simulaciones y Machine Learning -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('Media/imagen solconfiltro.jpg'); background-size: cover; background-position: center;">
                         <div class="card-icon">💻</div>
-                        <h3><span class="es">Simulaciones y Machine Learning</span><span class="en">Simulations and
-                                Machine Learning</span></h3>
-                        <p><span class="es">Aplicación de redes neuronales convolucionales, procesamiento de imágenes, e
-                                investigación del interior solar usando simulaciones termodinámicas
-                                complejas.</span><span class="en">Application of convolutional neural networks, image
-                                processing, and investigation of the solar interior using complex thermodynamic
-                                simulations.</span></p>
+                        <h3>
+                            <span class="es">4. Simulaciones y Machine Learning: El Sol en la Era Digital</span>
+                            <span class="en">4. Simulations and Machine Learning: The Sun in the Digital Era</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre el uso de la IA y computación de alto
+                                rendimiento en física solar.</span>
+                            <span class="en">Click to learn more about the use of AI and high-performance computing in
+                                solar physics.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="Media/imagen solconfiltro.png" alt="Machine Learning y Simulaciones"
+                                class="research-detail-img">
+                            <div class="research-text es">
+                                <p>Debido a la enorme cantidad de datos generados por telescopios modernos, esta línea
+                                    utiliza herramientas de <strong>Inteligencia Artificial</strong> y
+                                    <strong>computación de alto rendimiento</strong> para procesar información y modelar
+                                    procesos físicos imposibles de observar directamente.
+                                </p>
+                                <h4>Inteligencia Artificial en Física Solar</h4>
+                                <p>Somos pioneros en la aplicación de <strong>Redes Neuronales Convolucionales
+                                        (CNN)</strong> para la inversión de los Parámetros de Stokes. Tradicionalmente,
+                                    obtener el mapa del campo magnético del Sol a partir de la luz observada tomaba
+                                    horas de supercomputación; con IA, logramos estos resultados en milisegundos,
+                                    permitiendo análisis en tiempo real de la evolución del plasma.</p>
+                                <h4>Modelado Termodinámico y de Plasma</h4>
+                                <p>Más allá de los datos, creamos soles virtuales.</p>
+                                <ul>
+                                    <li><strong>Simulaciones MHD (Magnetohidrodinámica):</strong> Modelamos la
+                                        interacción entre fluidos conductores y campos magnéticos para entender la
+                                        turbulencia fotosférica y la emergencia de flujo magnético.</li>
+                                    <li><strong>Física de Plasmas:</strong> Estudiamos inestabilidades en plasmas no
+                                        colisionales y distribuciones de partículas no maxwellianas, fundamentales para
+                                        entender el calentamiento de la corona solar.</li>
+                                    <li><strong>Deep Learning para Imágenes:</strong> Desarrollamos algoritmos para el
+                                        procesamiento, limpieza y restauración de imágenes solares degradadas por la
+                                        atmósfera terrestre, mejorando la resolución de nuestros estudios ópticos.</li>
+                                </ul>
+                            </div>
+                            <div class="research-text en">
+                                <p>Due to the enormous amount of data generated by modern telescopes, this line uses
+                                    <strong>Artificial Intelligence</strong> tools and <strong>high-performance
+                                        computing</strong> to process information and model physical processes
+                                    impossible to observe directly.
+                                </p>
+                                <h4>Artificial Intelligence in Solar Physics</h4>
+                                <p>We are pioneers in the application of <strong>Convolutional Neural Networks
+                                        (CNNs)</strong> for the inversion of Stokes Parameters. Traditionally, obtaining
+                                    the magnetic field map of the Sun from observed light took hours of supercomputing;
+                                    with AI, we achieve these results in milliseconds, enabling real-time analysis of
+                                    plasma evolution.</p>
+                                <h4>Thermodynamic and Plasma Modeling</h4>
+                                <p>Beyond data, we create virtual suns.</p>
+                                <ul>
+                                    <li><strong>MHD (Magnetohydrodynamics) Simulations:</strong> We model the
+                                        interaction between conducting fluids and magnetic fields to understand
+                                        photospheric turbulence and magnetic flux emergence.</li>
+                                    <li><strong>Plasma Physics:</strong> We study instabilities in collisionless plasmas
+                                        and non-Maxwellian particle distributions, fundamental to understanding solar
+                                        corona heating.</li>
+                                    <li><strong>Deep Learning for Images:</strong> We develop algorithms for the
+                                        processing, cleaning, and restoration of solar images degraded by Earth's
+                                        atmosphere, improving the resolution of our optical studies.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </div>
@@ -409,8 +671,7 @@
                         <img src="images/daniel_rodriguez.jpg" alt="Daniel Alberto Rodríguez Torres"
                             class="team-avatar-img">
                         <h4>Daniel Alberto Rodríguez Torres</h4>
-                        <p class="role"><span class="es">Estudiante de Maestría</span><span class="en">Master's
-                                Student</span></p>
+                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
                             <a href="mailto:darodriguezto@unal.edu.co" class="member-link" title="Email">✉️</a>
                             <a href="https://orcid.org/0009-0000-1203-2913" target="_blank" class="member-link"
@@ -420,8 +681,7 @@
                     <div class="team-member-card glassmorphism maestria">
                         <img src="images/Paula.jpeg" alt="Paula Jessica González Prieto" class="team-avatar-img">
                         <h4>Paula Jessica González Prieto</h4>
-                        <p class="role"><span class="es">Estudiante de Maestría</span><span class="en">Master's
-                                Student</span></p>
+                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
                             <a href="mailto:pjgonzalezp@unal.edu.co" class="member-link" title="Email">✉️</a>
                             <a href="https://orcid.org/0009-0003-5287-8114" target="_blank" class="member-link"
@@ -431,8 +691,7 @@
                     <div class="team-member-card glassmorphism maestria">
                         <img src="images/Oscar Calvo.enc" alt="Oscar Andres Calvo Rebellon" class="team-avatar-img">
                         <h4>Oscar Andres Calvo Rebellon</h4>
-                        <p class="role"><span class="es">Estudiante de Maestría</span><span class="en">Master's
-                                Student</span></p>
+                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
                             <a href="mailto:oscara.calvor@uqvirtual.edu.co" class="member-link" title="Email">✉️</a>
                         </div>
