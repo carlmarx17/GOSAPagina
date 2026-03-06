@@ -23,7 +23,7 @@
 
     <header id="header">
         <div class="logo">
-            <img src="images/logo_gosa.jpg" alt="Logo GoSA" class="header-logo gosa-logo">
+            <img src="Media/logo Gosa.avif" alt="Logo GoSA" class="header-logo gosa-logo">
             <span class="gradient-text">GoSA</span>
         </div>
         <nav id="navbar">
@@ -168,45 +168,308 @@
                 </p>
 
                 <div class="research-grid">
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/solar_optics.png'); background-size: cover; background-position: center;">
+                    <!-- 1. Óptica en Alta Resolución -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('images/solar_optics.png'); background-size: cover; background-position: center;">
                         <div class="card-icon">🔭</div>
-                        <h3><span class="es">Óptico en Alta Resolución</span><span class="en">High-Resolution
-                                Optics</span></h3>
-                        <p><span class="es">Estudio de movimientos propios, puntos magnéticos brillantes, manchas
-                                solares y espectropolarimetría a través de telescopios terrestres de gran
-                                escala.</span><span class="en">Study of proper motions, magnetic bright points, sunspots
-                                and spectropolarimetry through large-scale ground-based telescopes.</span></p>
+                        <h3>
+                            <span class="es">1. Óptica en Alta Resolución: Dinámica y Magnetismo Fotosférico</span>
+                            <span class="en">1. High-Resolution Optics: Photospheric Dynamics and Magnetism</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre el estudio de la fotosfera solar, la
+                                dinámica del plasma y los fenómenos magnéticos.</span>
+                            <span class="en">Click to discover more about the study of the solar photosphere, plasma
+                                dynamics, and magnetic phenomena.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="Media/manchasolar.gif" alt="Dinámica en Alta Resolución"
+                                class="research-detail-img">
+                            <div class="research-text es">
+                                <p>Esta línea se centra en el estudio de la <strong>fotosfera solar</strong>, la
+                                    "superficie" visible del Sol, donde la interacción entre el plasma y los campos
+                                    magnéticos genera los fenómenos más fascinantes de la astrofísica estelar.
+                                    Trabajamos en <strong>dinámica</strong> mediante el análisis de flujos de plasma y
+                                    la evolución temporal de estructuras a pequeña escala.</p>
+                                <h4>El Corazón de la Dinámica: Movimientos Propios y Flujos</h4>
+                                <p>El estudio de la dinámica fotosférica implica rastrear cómo se mueven las estructuras
+                                    solares. Utilizamos técnicas como el <strong>Local Correlation Tracking
+                                        (LCT)</strong> para medir los movimientos propios de los <strong>Puntos
+                                        Brillantes Magnéticos (MBPs)</strong> y las <strong>Manchas Solares</strong>.
+                                    Estos movimientos no son aleatorios; revelan la transferencia de energía desde el
+                                    interior solar hacia las capas superiores. Investigamos cómo los puntos brillantes
+                                    son arrastrados por los flujos granulares y cómo las <strong>Moving Magnetic
+                                        Features (MMF)</strong> se desprenden de la penumbra de las manchas,
+                                    transportando flujo magnético hacia la red solar.</p>
+                                <h4>Espectropolarimetría y Diagnóstico Físico</h4>
+                                <p>Para entender la física detrás del movimiento, aplicamos la espectropolarimetría. A
+                                    través de los <strong>Parámetros de Stokes</strong> ($I, Q, U, V$), podemos
+                                    reconstruir el vector del campo magnético y las velocidades Doppler.</p>
+                                <ul>
+                                    <li><strong>Velocidades Doppler:</strong> Nos permiten medir oscilaciones y flujos
+                                        verticales en la penumbra de las manchas.</li>
+                                    <li><strong>Inversión de la transferencia radiante:</strong> Utilizamos códigos para
+                                        extraer la temperatura, presión y campo magnético del plasma a diferentes
+                                        alturas.</li>
+                                </ul>
+                                <p>Esta línea utiliza datos de los telescopios solares más grandes del mundo, como el
+                                    <strong>GREGOR</strong> y el <strong>VTT</strong> (Tenerife), y el
+                                    <strong>SST</strong> (La Palma), permitiéndonos observar detalles de apenas unos
+                                    cientos de kilómetros sobre la superficie solar.
+                                </p>
+                            </div>
+                            <div class="research-text en">
+                                <p>This line focuses on the study of the <strong>solar photosphere</strong>, the visible
+                                    "surface" of the Sun, where the interaction between plasma and magnetic fields
+                                    generates the most fascinating phenomena of stellar astrophysics. We work on
+                                    <strong>dynamics</strong> by analyzing plasma flows and the temporal evolution of
+                                    small-scale structures.
+                                </p>
+                                <h4>The Heart of Dynamics: Proper Motions and Flows</h4>
+                                <p>The study of photospheric dynamics involves tracking how solar structures move. We
+                                    use techniques like <strong>Local Correlation Tracking (LCT)</strong> to measure the
+                                    proper motions of <strong>Magnetic Bright Points (MBPs)</strong> and
+                                    <strong>Sunspots</strong>. These movements are not random; they reveal the transfer
+                                    of energy from the solar interior to the upper layers. We investigate how bright
+                                    points are dragged by granular flows and how <strong>Moving Magnetic Features
+                                        (MMF)</strong> detach from the penumbra of sunspots, transporting magnetic flux
+                                    to the solar network.
+                                </p>
+                                <h4>Spectropolarimetry and Physical Diagnostics</h4>
+                                <p>To understand the physics behind the movement, we apply spectropolarimetry. Through
+                                    the <strong>Stokes Parameters</strong> ($I, Q, U, V$), we can reconstruct the
+                                    magnetic field vector and Doppler velocities.</p>
+                                <ul>
+                                    <li><strong>Doppler Velocities:</strong> Allow us to measure oscillations and
+                                        vertical flows in the penumbra of sunspots.</li>
+                                    <li><strong>Radiative transfer inversion:</strong> We use codes to extract the
+                                        temperature, pressure, and magnetic field of the plasma at different heights.
+                                    </li>
+                                </ul>
+                                <p>This line uses data from the largest solar telescopes in the world, such as
+                                    <strong>GREGOR</strong> and <strong>VTT</strong> (Tenerife), and the
+                                    <strong>SST</strong> (La Palma), allowing us to observe details of just a few
+                                    hundred kilometers on the solar surface.
+                                </p>
+                            </div>
+                        </div>
                     </article>
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/hero-bg.png'); background-size: cover; background-position: center;">
+
+                    <!-- 2. Observación en Radio y Rayos X -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('images/hero-bg.png'); background-size: cover; background-position: center;">
                         <div class="card-icon">📡</div>
-                        <h3><span class="es">Observación en Radio y Rayos X</span><span class="en">Radio and X-Ray
-                                Observation</span></h3>
-                        <p><span class="es">Análisis de la cromosfera, altas energías, fulguraciones solares y
-                                espectroscopía utilizando instalaciones como ALMA y misiones satelitales.</span><span
-                                class="en">Analysis of the chromosphere, high energies, solar flares and spectroscopy
-                                using facilities such as ALMA and satellite missions.</span></p>
+                        <h3>
+                            <span class="es">2. Observación en Radio y Rayos X: Altas Energías y la Cromosfera</span>
+                            <span class="en">2. Radio and X-Ray Observation: High Energies and the Chromosphere</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre estudios de eventos violentos solares,
+                                radiación y aceleración de partículas.</span>
+                            <span class="en">Click to learn more about the study of violent solar events, radiation, and
+                                particle acceleration.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="Media/imagenflare.gif" alt="Radio y Rayos X" class="research-detail-img">
+                            <div class="research-text es">
+                                <p>Esta línea explora los eventos más violentos del Sol: las <strong>fulguraciones
+                                        solares (flares)</strong>. Mientras que la óptica ve la superficie, el radio y
+                                    los rayos X nos permiten "ver" la atmósfera exterior (cromosfera y corona) y las
+                                    partículas aceleradas a velocidades cercanas a la de la luz.</p>
+                                <h4>Sismicidad Solar y Aceleración de Partículas</h4>
+                                <p>Un foco principal es la <strong>heliosismología local</strong> asociada a
+                                    fulguraciones. Investigamos los "sismos solares", ondas acústicas generadas por el
+                                    impacto de haces de partículas en la fotosfera durante un flare. Analizamos la
+                                    <strong>aceleración estocástica de electrones</strong>, buscando entender cómo la
+                                    reconexión magnética libera energía de forma tan eficiente que puede afectar las
+                                    comunicaciones en la Tierra.
+                                </p>
+                                <h4>Instrumentación y Radioastronomía</h4>
+                                <p>El grupo no solo analiza datos, sino que construye tecnología. Proyectos como el
+                                    <strong>Radiointerferómetro Solar (IMFR 11GHz)</strong> buscan monitorear la emisión
+                                    de radio solar desde Colombia.
+                                </p>
+                                <ul>
+                                    <li><strong>ALMA y FOXSI:</strong> Utilizamos datos del radiotelescopio ALMA para
+                                        estudiar la cromosfera y participamos en el análisis de misiones como FOXSI para
+                                        la detección de rayos X duros, esenciales para localizar los sitios de
+                                        aceleración de partículas.</li>
+                                    <li><strong>Espectroscopía:</strong> Estudiamos la respuesta multitérmica de la
+                                        atmósfera solar, integrando datos de satélites como el <strong>SDO (Solar
+                                            Dynamics Observatory)</strong> para entender cómo un flare calienta el
+                                        plasma a millones de grados en segundos.</li>
+                                </ul>
+                            </div>
+                            <div class="research-text en">
+                                <p>This line explores the most violent events of the Sun: <strong>solar flares</strong>.
+                                    While optics see the surface, radio and X-rays allow us to "see" the outer
+                                    atmosphere (chromosphere and corona) and particles accelerated to speeds close to
+                                    that of light.</p>
+                                <h4>Solar Seismicity and Particle Acceleration</h4>
+                                <p>A main focus is <strong>local helioseismology</strong> associated with flares. We
+                                    investigate "solar quakes", acoustic waves generated by the impact of particle beams
+                                    on the photosphere during a flare. We analyze the <strong>stochastic acceleration of
+                                        electrons</strong>, seeking to understand how magnetic reconnection releases
+                                    energy so efficiently that it can affect communications on Earth.</p>
+                                <h4>Instrumentation and Radio Astronomy</h4>
+                                <p>The group not only analyzes data but also builds technology. Projects like the
+                                    <strong>Solar Radio Interferometer (IMFR 11GHz)</strong> seek to monitor solar radio
+                                    emission from Colombia.
+                                </p>
+                                <ul>
+                                    <li><strong>ALMA and FOXSI:</strong> We use data from the ALMA radio telescope to
+                                        study the chromosphere and participate in the analysis of missions like FOXSI
+                                        for hard X-ray detection, essential for locating particle acceleration sites.
+                                    </li>
+                                    <li><strong>Spectroscopy:</strong> We study the multithermal response of the solar
+                                        atmosphere, integrating data from satellites like the <strong>SDO (Solar
+                                            Dynamics Observatory)</strong> to understand how a flare heats the plasma to
+                                        millions of degrees in seconds.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </article>
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/space_weather.png'); background-size: cover; background-position: center;">
+
+                    <!-- 3. Clima Espacial -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('images/space_weather.png'); background-size: cover; background-position: center;">
                         <div class="card-icon">🌍</div>
-                        <h3><span class="es">Clima Espacial</span><span class="en">Space Weather</span></h3>
-                        <p><span class="es">Investigación del viento solar, Eyecciones de Masa Coronal (CME), campos
-                                magnéticos interplanetarios y sus efectos en las relaciones Sol-Tierra.</span><span
-                                class="en">Research into solar wind, Coronal Mass Ejections (CMEs), interplanetary
-                                magnetic fields and their effects on Sun-Earth relations.</span></p>
+                        <h3>
+                            <span class="es">3. Clima Espacial (Space Weather): Relación Sol-Tierra</span>
+                            <span class="en">3. Space Weather: Sun-Earth Relationship</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre cómo la actividad solar afecta a los
+                                planetas y nuestro entorno tecnológico.</span>
+                            <span class="en">Click to learn more about how solar activity affects planets and our
+                                technological environment.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="images/climaespacial.png" alt="Clima Espacial" class="research-detail-img es">
+                            <img src="images/spacewheater.png" alt="Space Weather" class="research-detail-img en">
+                            <div class="research-text es">
+                                <p>El <strong>Clima Espacial</strong> es la rama aplicada que estudia cómo la actividad
+                                    solar afecta el entorno tecnológico y biológico de los planetas. Esta línea conecta
+                                    la física solar pura con la geofísica y la exploración espacial.</p>
+                                <h4>Viento Solar y CMEs</h4>
+                                <p>Investigamos las <strong>Eyecciones de Masa Coronal (CMEs)</strong>, inmensas nubes
+                                    de plasma magnetizado que viajan por el medio interplanetario. Estudiamos su
+                                    propagación y cómo sus campos magnéticos interactúan con la magnetosfera terrestre.
+                                    El análisis del viento solar y sus propiedades anisotrópicas nos permite entender la
+                                    turbulencia del plasma que baña nuestro sistema solar.</p>
+                                <h4>Impacto Planetario y Terrestre</h4>
+                                <ul>
+                                    <li><strong>Geomagnetismo:</strong> Utilizamos datos de observatorios locales (como
+                                        Fúquene, Colombia) para estudiar las tormentas geomagnéticas inducidas por el
+                                        Sol.</li>
+                                    <li><strong>Atmósferas Planetarias:</strong> Extendemos nuestra investigación a
+                                        otros mundos, analizando cómo el ciclo solar de 11 años afecta la variabilidad
+                                        de la atmósfera de Marte, lo cual es crítico para futuras misiones tripuladas.
+                                    </li>
+                                    <li><strong>Astrobiología:</strong> Incluso exploramos los efectos de la radiación
+                                        UV solar en sistemas biológicos (como cultivos de quinoa), simulando ambientes
+                                        extremos para entender la habitabilidad planetaria.</li>
+                                </ul>
+                            </div>
+                            <div class="research-text en">
+                                <p><strong>Space Weather</strong> is the applied branch that studies how solar activity
+                                    affects the technological and biological environment of planets. This line connects
+                                    pure solar physics with geophysics and space exploration.</p>
+                                <h4>Solar Wind and CMEs</h4>
+                                <p>We investigate <strong>Coronal Mass Ejections (CMEs)</strong>, massive clouds of
+                                    magnetized plasma traveling through the interplanetary medium. We study their
+                                    propagation and how their magnetic fields interact with the Earth's magnetosphere.
+                                    Analyzing the solar wind and its anisotropic properties allows us to understand the
+                                    turbulence of the plasma that bathes our stellar system.</p>
+                                <h4>Planetary and Terrestrial Impact</h4>
+                                <ul>
+                                    <li><strong>Geomagnetism:</strong> We use data from local observatories (like
+                                        Fúquene, Colombia) to study geomagnetic storms induced by the Sun.</li>
+                                    <li><strong>Planetary Atmospheres:</strong> We extend our research to other worlds,
+                                        analyzing how the 11-year solar cycle affects the atmospheric variability of
+                                        Mars, critical for future manned missions.</li>
+                                    <li><strong>Astrobiology:</strong> We even explore the effects of solar UV radiation
+                                        on biological systems (like quinoa crops), simulating extreme environments to
+                                        understand planetary habitability.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </article>
-                    <article class="research-card glassmorphism"
-                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.4)), url('images/hero-bg.png'); background-size: cover; background-position: center;">
+
+                    <!-- 4. Simulaciones y Machine Learning -->
+                    <article class="research-card glassmorphism" onclick="this.classList.toggle('expanded')"
+                        style="background-image: linear-gradient(to top, rgba(15, 17, 30, 0.95), rgba(15, 17, 30, 0.7)), url('Media/imagen solconfiltro.jpg'); background-size: cover; background-position: center;">
                         <div class="card-icon">💻</div>
-                        <h3><span class="es">Simulaciones y Machine Learning</span><span class="en">Simulations and
-                                Machine Learning</span></h3>
-                        <p><span class="es">Aplicación de redes neuronales convolucionales, procesamiento de imágenes, e
-                                investigación del interior solar usando simulaciones termodinámicas
-                                complejas.</span><span class="en">Application of convolutional neural networks, image
-                                processing, and investigation of the solar interior using complex thermodynamic
-                                simulations.</span></p>
+                        <h3>
+                            <span class="es">4. Simulaciones y Machine Learning: El Sol en la Era Digital</span>
+                            <span class="en">4. Simulations and Machine Learning: The Sun in the Digital Era</span>
+                        </h3>
+                        <p class="summary">
+                            <span class="es">Haz clic para descubrir más sobre el uso de la IA y computación de alto
+                                rendimiento en física solar.</span>
+                            <span class="en">Click to learn more about the use of AI and high-performance computing in
+                                solar physics.</span>
+                        </p>
+
+                        <div class="research-details">
+                            <img src="images/deeplearning.png" alt="Machine Learning y Simulaciones"
+                                class="research-detail-img">
+                            <div class="research-text es">
+                                <p>Debido a la enorme cantidad de datos generados por telescopios modernos, esta línea
+                                    utiliza herramientas de <strong>Inteligencia Artificial</strong> y
+                                    <strong>computación de alto rendimiento</strong> para procesar información y modelar
+                                    procesos físicos imposibles de observar directamente.
+                                </p>
+                                <h4>Inteligencia Artificial en Física Solar</h4>
+                                <p>Somos pioneros en la aplicación de <strong>Redes Neuronales Convolucionales
+                                        (CNN)</strong> para la inversión de los Parámetros de Stokes. Tradicionalmente,
+                                    obtener el mapa del campo magnético del Sol a partir de la luz observada tomaba
+                                    horas de supercomputación; con IA, logramos estos resultados en milisegundos,
+                                    permitiendo análisis en tiempo real de la evolución del plasma.</p>
+                                <h4>Modelado Termodinámico y de Plasma</h4>
+                                <p>Más allá de los datos, creamos soles virtuales.</p>
+                                <ul>
+                                    <li><strong>Simulaciones MHD (Magnetohidrodinámica):</strong> Modelamos la
+                                        interacción entre fluidos conductores y campos magnéticos para entender la
+                                        turbulencia fotosférica y la emergencia de flujo magnético.</li>
+                                    <li><strong>Física de Plasmas:</strong> Estudiamos inestabilidades en plasmas no
+                                        colisionales y distribuciones de partículas no maxwellianas, fundamentales para
+                                        entender el calentamiento de la corona solar.</li>
+                                    <li><strong>Deep Learning para Imágenes:</strong> Desarrollamos algoritmos para el
+                                        procesamiento, limpieza y restauración de imágenes solares degradadas por la
+                                        atmósfera terrestre, mejorando la resolución de nuestros estudios ópticos.</li>
+                                </ul>
+                            </div>
+                            <div class="research-text en">
+                                <p>Due to the enormous amount of data generated by modern telescopes, this line uses
+                                    <strong>Artificial Intelligence</strong> tools and <strong>high-performance
+                                        computing</strong> to process information and model physical processes
+                                    impossible to observe directly.
+                                </p>
+                                <h4>Artificial Intelligence in Solar Physics</h4>
+                                <p>We are pioneers in the application of <strong>Convolutional Neural Networks
+                                        (CNNs)</strong> for the inversion of Stokes Parameters. Traditionally, obtaining
+                                    the magnetic field map of the Sun from observed light took hours of supercomputing;
+                                    with AI, we achieve these results in milliseconds, enabling real-time analysis of
+                                    plasma evolution.</p>
+                                <h4>Thermodynamic and Plasma Modeling</h4>
+                                <p>Beyond data, we create virtual suns.</p>
+                                <ul>
+                                    <li><strong>MHD (Magnetohydrodynamics) Simulations:</strong> We model the
+                                        interaction between conducting fluids and magnetic fields to understand
+                                        photospheric turbulence and magnetic flux emergence.</li>
+                                    <li><strong>Plasma Physics:</strong> We study instabilities in collisionless plasmas
+                                        and non-Maxwellian particle distributions, fundamental to understanding solar
+                                        corona heating.</li>
+                                    <li><strong>Deep Learning for Images:</strong> We develop algorithms for the
+                                        processing, cleaning, and restoration of solar images degraded by Earth's
+                                        atmosphere, improving the resolution of our optical studies.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </div>
@@ -252,6 +515,165 @@
                         <a href="dynasun.html" class="news-link"><span class="es">Saber más →</span><span
                                 class="en">Learn more →</span></a>
                     </article>
+
+                    <!-- Cronograma de Seminarios -->
+                    <article class="news-card glassmorphism expandable" style="grid-column: 1 / -1;">
+                        <div class="news-date">Semestre 2026-I</div>
+                        <h3><span class="es">Cronograma de Seminario 2026-I</span><span class="en">2026-I Seminar
+                                Schedule</span></h3>
+
+                        <div class="expand-btn-open">
+                            <span class="es">Ver cronograma completo →</span>
+                            <span class="en">See full schedule →</span>
+                        </div>
+
+                        <div class="expand-content">
+                            <div class="table-responsive" style="overflow-x: auto; margin-top: 15px;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+                                    <thead>
+                                        <tr
+                                            style="border-bottom: 2px solid var(--primary); color: var(--secondary); text-align: left;">
+                                            <th style="padding: 12px 8px;">#</th>
+                                            <th style="padding: 12px 8px;"><span class="es">Fecha</span><span
+                                                    class="en">Date</span></th>
+                                            <th style="padding: 12px 8px;"><span class="es">Modalidad</span><span
+                                                    class="en">Modality</span></th>
+                                            <th style="padding: 12px 8px;"><span class="es">Tema / Expositor</span><span
+                                                    class="en">Topic / Speaker</span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">1</td>
+                                            <td style="padding: 10px 8px;"><span class="es">febrero 21</span><span
+                                                    class="en">Feb 21</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Bienvenida y
+                                                    organización</span><span class="en">Welcome and Organization</span>
+                                            </td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">2</td>
+                                            <td style="padding: 10px 8px;"><span class="es">febrero 28</span><span
+                                                    class="en">Feb 28</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Daniel Rodríguez (seminario)</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">3</td>
+                                            <td style="padding: 10px 8px;"><span class="es">marzo 7</span><span
+                                                    class="en">Mar 7</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Carlos Martinez (seminario)</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">4</td>
+                                            <td style="padding: 10px 8px;"><span class="es">marzo 14</span><span
+                                                    class="en">Mar 14</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Santiago Pinzón</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">5</td>
+                                            <td style="padding: 10px 8px;"><span class="es">marzo 28</span><span
+                                                    class="en">Mar 28</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Paula Gonzalez (sustentación)</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">6</td>
+                                            <td style="padding: 10px 8px;"><span class="es">abril 11</span><span
+                                                    class="en">Apr 11</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Dayan Cantor (avances
+                                                    trabajo),
+                                                    Samuel Noreña (avances)</span><span class="en">Dayan Cantor
+                                                    (progress),
+                                                    Samuel Noreña (progress)</span></td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">7</td>
+                                            <td style="padding: 10px 8px;"><span class="es">abril 18</span><span
+                                                    class="en">Apr 18</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Julio Florez y Daniel Ramos
+                                                    (avances)</span><span class="en">Julio Florez and Daniel Ramos
+                                                    (progress)</span></td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">8</td>
+                                            <td style="padding: 10px 8px;"><span class="es">abril 25</span><span
+                                                    class="en">Apr 25</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Juan Esteban Agudelo (seminario)</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">9</td>
+                                            <td style="padding: 10px 8px;"><span class="es">mayo 2</span><span
+                                                    class="en">May 2</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Milena Barrios
+                                                    (avances)</span><span class="en">Milena Barrios (progress)</span>
+                                            </td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">10</td>
+                                            <td style="padding: 10px 8px;"><span class="es">mayo 9</span><span
+                                                    class="en">May 9</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Laura Palacino (seminario), Santiago Fonseca
+                                            </td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">11</td>
+                                            <td style="padding: 10px 8px;"><span class="es">mayo 16</span><span
+                                                    class="en">May 16</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Oscar Calvo (seminario), Sofia Cortes
+                                                (telescopio
+                                                Llinás)</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 10px 8px;">12</td>
+                                            <td style="padding: 10px 8px;"><span class="es">mayo 23</span><span
+                                                    class="en">May 23</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Juan Jose Beltrán (proyecto
+                                                    de
+                                                    tesis), Danna Ortiz (electrónica)</span><span class="en">Juan Jose
+                                                    Beltrán (thesis project), Danna Ortiz (electronics)</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 10px 8px;">13</td>
+                                            <td style="padding: 10px 8px;"><span class="es">mayo 30</span><span
+                                                    class="en">May 30</span></td>
+                                            <td style="padding: 10px 8px;"><span class="es">Híbrido</span><span
+                                                    class="en">Hybrid</span></td>
+                                            <td style="padding: 10px 8px;">Daniel Rodríguez y Carlos Martínez
+                                                (seminario)
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="expand-btn-close">
+                                <span class="es">↑ Contraer cronograma ↑</span>
+                                <span class="en">↑ Collapse schedule ↑</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -278,6 +700,7 @@
                 </div>
 
                 <div class="team-grid-full">
+                    <!-- Investigadores Principales -->
                     <div class="team-member-card glassmorphism investigador">
                         <img src="images/prof_benjamin_calvo_mozo.jpeg" alt="Benjamín Calvo Mozo"
                             class="team-avatar-img">
@@ -294,8 +717,13 @@
                         <p class="role"><span class="es">Profesor</span><span class="en">Professor</span></p>
                         <div class="member-links">
                             <a href="mailto:svargasd@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0000-0002-5999-4842" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                            <a href="https://www.researchgate.net/profile/Santiago-Vargas-Dominguez-2" target="_blank"
+                                class="member-link" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
                         </div>
                     </div>
+                    <!-- Colaboradores Externos -->
                     <div class="team-member-card glassmorphism investigador">
                         <img src="images/dr_juan_carlos_martinez_oliveros.jpeg" alt="Juan Carlos Martínez Oliveros"
                             class="team-avatar-img">
@@ -307,18 +735,35 @@
                     <div class="team-member-card glassmorphism investigador">
                         <img src="images/juan_camilo_buitrago.png" alt="Juan Camilo Buitrago" class="team-avatar-img">
                         <h4>Juan Camilo Buitrago</h4>
-                        <p class="role"><span class="es">Investigador</span><span class="en">Researcher</span></p>
+                        <p class="role"><span class="es">Colaborador Externo</span><span class="en">External
+                                Collaborator</span></p>
                         <div class="member-links">
                             <a href="mailto:jcbuitragoc@unal.edu.co" class="member-link" title="Email">✉️</a>
                         </div>
                     </div>
+                    <div class="team-member-card glassmorphism investigador">
+                        <img src="images/jose_ivan.jpeg" alt="Jose Ivan Campos Rozo" class="team-avatar-img">
+                        <h4>Jose Ivan Campos Rozo</h4>
+                        <p class="role"><span class="es">Colaborador Externo</span><span class="en">External
+                                Collaborator</span></p>
+                        <div class="member-links">
+                            <a href="mailto:jicamposr@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0000-0001-8883-6790" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                        </div>
+                    </div>
+                    <!-- Egresados Activos -->
                     <div class="team-member-card glassmorphism egresado">
-                        <img src="https://ui-avatars.com/api/?name=Juan+Sebastián+Hincapié+Tarquino&background=00b4d8&color=fff&size=150"
+                        <img src="images/Integrantes _ GoSA/Sebastian Incapie.jpg"
                             alt="Juan Sebastián Hincapié Tarquino" class="team-avatar-img">
                         <h4>Juan Sebastián Hincapié Tarquino</h4>
                         <p class="role"><span class="es">Egresado</span><span class="en">Alumnus</span></p>
                         <div class="member-links">
                             <a href="mailto:jshincapiet@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0000-0001-8758-1706" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                            <a href="https://www.researchgate.net/profile/Juan-Hincapie-Tarquino" target="_blank"
+                                class="member-link" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism egresado">
@@ -327,39 +772,30 @@
                         <p class="role"><span class="es">Egresado</span><span class="en">Alumnus</span></p>
                         <div class="member-links">
                             <a href="mailto:andmartinezci@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0000-0002-3435-4881" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                            <a href="https://www.researchgate.net/profile/Angel_Martinez67" target="_blank"
+                                class="member-link" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
                         </div>
                     </div>
-                    <div class="team-member-card glassmorphism maestria">
+                    <div class="team-member-card glassmorphism egresado">
                         <img src="https://ui-avatars.com/api/?name=Santiago+Pinzón+Cortés&background=00b4d8&color=fff&size=150"
                             alt="Santiago Pinzón Cortés" class="team-avatar-img">
                         <h4>Santiago Pinzón Cortés</h4>
-                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
+                        <p class="role"><span class="es">Egresado</span><span class="en">Alumnus</span></p>
                         <div class="member-links">
                             <a href="mailto:sanpinzoncor@unal.edu.co" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism pregrado">
-                        <img src="images/ana_gabriela_martinez.jpg" alt="Ana Gabriela Martínez" class="team-avatar-img">
-                        <h4>Ana Gabriela Martínez</h4>
-                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
-                        <div class="member-links">
-                            <a href="mailto:agmartinezm@upn.edu.co" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism maestria">
-                        <img src="images/erika_paola_puentes_leon.jpg" alt="Erika Paola Puentes León"
-                            class="team-avatar-img">
-                        <h4>Erika Paola Puentes León</h4>
-                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
-                        <div class="member-links">
-                            <a href="mailto:eppuentesl@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0000-0001-8710-6892" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                            <a href="https://www.researchgate.net/profile/Santiago-Pinzon-3" target="_blank"
+                                class="member-link" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism egresado">
                         <img src="images/valeria_quintero_ortega.jpg" alt="Valeria Quintero Ortega"
                             class="team-avatar-img">
                         <h4>Valeria Quintero Ortega</h4>
-                        <p class="role"><span class="es">Egresado</span><span class="en">Alumnus</span></p>
+                        <p class="role"><span class="es">Egresada</span><span class="en">Alumna</span></p>
                         <div class="member-links">
                             <a href="mailto:vquinteroo@unal.edu.co" class="member-link" title="Email">✉️</a>
                         </div>
@@ -376,11 +812,21 @@
                     <div class="team-member-card glassmorphism egresado">
                         <img src="images/laura_vviviana.jpg" alt="Laura Viviana Alfonso Díaz" class="team-avatar-img">
                         <h4>Laura Viviana Alfonso Díaz</h4>
-                        <p class="role"><span class="es">Egresado</span><span class="en">Alumnus</span></p>
+                        <p class="role"><span class="es">Egresada</span><span class="en">Alumna</span></p>
                         <div class="member-links">
                             <a href="mailto:lalfonsod@unal.edu.co" class="member-link" title="Email">✉️</a>
                         </div>
                     </div>
+                    <div class="team-member-card glassmorphism egresado">
+                        <img src="images/javier_sanchez_gonzalez.jpeg" alt="Javier Sánchez González"
+                            class="team-avatar-img">
+                        <h4>Javier Sánchez González</h4>
+                        <p class="role"><span class="es">Egresado</span><span class="en">Alumnus</span></p>
+                        <div class="member-links">
+                            <a href="mailto:jsanchezg@unal.edu.co" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
+                    <!-- Estudiantes de Posgrado -->
                     <div class="team-member-card glassmorphism maestria">
                         <img src="images/daniel_rodriguez.jpg" alt="Daniel Alberto Rodríguez Torres"
                             class="team-avatar-img">
@@ -388,14 +834,18 @@
                         <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
                             <a href="mailto:darodriguezto@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0000-1203-2913" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
                         </div>
                     </div>
-                    <div class="team-member-card glassmorphism investigador">
-                        <img src="images/jose_ivan.jpeg" alt="Jose Ivan Campos Rozo" class="team-avatar-img">
-                        <h4>Jose Ivan Campos Rozo</h4>
-                        <p class="role"><span class="es">Investigador</span><span class="en">Researcher</span></p>
+                    <div class="team-member-card glassmorphism maestria">
+                        <img src="images/Paula.jpeg" alt="Paula Jessica González Prieto" class="team-avatar-img">
+                        <h4>Paula Jessica González Prieto</h4>
+                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
-                            <a href="mailto:jicamposr@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="mailto:pjgonzalezp@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0003-5287-8114" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism maestria">
@@ -406,31 +856,14 @@
                             <a href="mailto:oscara.calvor@uqvirtual.edu.co" class="member-link" title="Email">✉️</a>
                         </div>
                     </div>
-                    <div class="team-member-card glassmorphism pregrado">
-                        <img src="images/nicoll_valeria_moreno_alzate.png" alt="Nicoll Valeria Moreno Alzate"
-                            class="team-avatar-img">
-                        <h4>Nicoll Valeria Moreno Alzate</h4>
-                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
-                        <div class="member-links">
-                            <a href="mailto:nvmorenoa@eafit.edu.co" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
                     <div class="team-member-card glassmorphism maestria">
-                        <img src="images/javier_sanchez_gonzalez.jpeg" alt="Javier Sánchez González"
-                            class="team-avatar-img">
-                        <h4>Javier Sánchez González</h4>
-                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
-                        <div class="member-links">
-                            <a href="mailto:jsanchezg@unal.edu.co" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism maestria">
-                        <img src="images/juan_pablo_herrera.png" alt="Juan Pablo Herrera Moreno"
-                            class="team-avatar-img">
+                        <img src="images/juan pablo.jpeg" alt="Juan Pablo Herrera Moreno" class="team-avatar-img">
                         <h4>Juan Pablo Herrera Moreno</h4>
                         <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
                             <a href="mailto:juapherreramor@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0000-5600-8317" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism maestria">
@@ -440,6 +873,8 @@
                         <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
                             <a href="mailto:jomolinac@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0000-0001-7938-8295" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism maestria">
@@ -449,17 +884,52 @@
                         <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
                         <div class="member-links">
                             <a href="mailto:cmartinezsi@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0005-4432-8264" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism maestria">
                         <img src="images/uan_esteban_agudelo_ortiz.png" alt="Juan Esteban Agudelo Ortiz"
                             class="team-avatar-img">
                         <h4>Juan Esteban Agudelo Ortiz</h4>
-                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
+                        <p class="role"><span class="es">Estudiante de Doctorado</span><span class="en">PhD
+                                Student</span></p>
                         <div class="member-links">
                             <a href="mailto:juagudeloo@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0000-0002-7840-9370" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                            <a href="https://www.researchgate.net/profile/Juan-Agudelo-Ortiz" target="_blank"
+                                class="member-link" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
                         </div>
                     </div>
+                    <div class="team-member-card glassmorphism maestria">
+                        <img src="https://ui-avatars.com/api/?name=Laura+Camila+Palacino+Téllez&background=00b4d8&color=fff&size=150"
+                            alt="Laura Camila Palacino Téllez" class="team-avatar-img">
+                        <h4>Laura Camila Palacino Téllez</h4>
+                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
+                        <div class="member-links">
+                            <a href="mailto:lpalacino@unal.edu.co" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism maestria">
+                        <img src="https://ui-avatars.com/api/?name=Andrés+Felipe+Guerrero+Guio&background=00b4d8&color=fff&size=150"
+                            alt="Andrés Felipe Guerrero Guio" class="team-avatar-img">
+                        <h4>Andrés Felipe Guerrero Guio</h4>
+                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
+                        <div class="member-links">
+                            <a href="mailto:afguerrerogu@unal.edu.co" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism maestria">
+                        <img src="https://ui-avatars.com/api/?name=Juan+José+Beltrán+Ramírez&background=00b4d8&color=fff&size=150"
+                            alt="Juan José Beltrán Ramírez" class="team-avatar-img">
+                        <h4>Juan José Beltrán Ramírez</h4>
+                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
+                        <div class="member-links">
+                            <a href="mailto:jubeltranr@unal.edu.co" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
+                    <!-- Estudiantes de Pregrado -->
                     <div class="team-member-card glassmorphism pregrado">
                         <img src="images/uan_david_nino_reyes.jpeg" alt="Juan David Niño Reyes" class="team-avatar-img">
                         <h4>Juan David Niño Reyes</h4>
@@ -469,21 +939,13 @@
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism pregrado">
-                        <img src="https://ui-avatars.com/api/?name=Milena+Andrea+Barrios+Gallego&background=00b4d8&color=fff&size=150"
-                            alt="Milena Andrea Barrios Gallego" class="team-avatar-img">
+                        <img src="images/Milena.jpeg" alt="Milena Andrea Barrios Gallego" class="team-avatar-img">
                         <h4>Milena Andrea Barrios Gallego</h4>
                         <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
                         <div class="member-links">
                             <a href="mailto:mibarriosg@unal.edu.co" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism maestria">
-                        <img src="https://ui-avatars.com/api/?name=Paula+Jessica+González+Prieto&background=00b4d8&color=fff&size=150"
-                            alt="Paula Jessica González Prieto" class="team-avatar-img">
-                        <h4>Paula Jessica González Prieto</h4>
-                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
-                        <div class="member-links">
-                            <a href="mailto:pjgonzalezp@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0004-6858-1363" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism pregrado">
@@ -493,41 +955,6 @@
                         <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
                         <div class="member-links">
                             <a href="mailto:daortizca@unal.edu.co" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism maestria">
-                        <img src="https://ui-avatars.com/api/?name=Laura+Camila+Palacino+Téllez&background=00b4d8&color=fff&size=150"
-                            alt="Laura Camila Palacino Téllez" class="team-avatar-img">
-                        <h4>Laura Camila Palacino Téllez</h4>
-                        <p class="role"><span class="es">Posgrado</span><span class="en">Graduate Student</span></p>
-                        <div class="member-links">
-                            <a href="mailto:laurapalacino24@gmail.com" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism pregrado">
-                        <img src="https://ui-avatars.com/api/?name=Mariana+Castellanos+Ramírez&background=00b4d8&color=fff&size=150"
-                            alt="Mariana Castellanos Ramírez" class="team-avatar-img">
-                        <h4>Mariana Castellanos Ramírez</h4>
-                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
-                        <div class="member-links">
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism pregrado">
-                        <img src="https://ui-avatars.com/api/?name=Andrés+Felipe+Guerrero+Guio&background=00b4d8&color=fff&size=150"
-                            alt="Andrés Felipe Guerrero Guio" class="team-avatar-img">
-                        <h4>Andrés Felipe Guerrero Guio</h4>
-                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
-                        <div class="member-links">
-                            <a href="mailto:afguerrerogu@unal.edu.co" class="member-link" title="Email">✉️</a>
-                        </div>
-                    </div>
-                    <div class="team-member-card glassmorphism otras">
-                        <img src="https://ui-avatars.com/api/?name=Juan+Camilo+Hernández+Clavijo&background=00b4d8&color=fff&size=150"
-                            alt="Juan Camilo Hernández Clavijo" class="team-avatar-img">
-                        <h4>Juan Camilo Hernández Clavijo</h4>
-                        <p class="role"><span class="es">Escolar</span><span class="en">High School Student</span></p>
-                        <div class="member-links">
-                            <a href="mailto:juancamilohdez2005@gmail.com" class="member-link" title="Email">✉️</a>
                         </div>
                     </div>
                     <div class="team-member-card glassmorphism pregrado">
@@ -557,6 +984,75 @@
                             <a href="mailto:bmedinac@unal.edu.co" class="member-link" title="Email">✉️</a>
                         </div>
                     </div>
+                    <div class="team-member-card glassmorphism pregrado">
+                        <img src="https://ui-avatars.com/api/?name=Julián+David+Acosta+Calderón&background=00b4d8&color=fff&size=150"
+                            alt="Julián David Acosta Calderón" class="team-avatar-img">
+                        <h4>Julián David Acosta Calderón</h4>
+                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
+                        <div class="member-links">
+                            <a href="mailto:juacostaca@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0009-4158-7032" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism pregrado">
+                        <img src="https://ui-avatars.com/api/?name=Dayan+Andrea+Cantor+Ortiz&background=00b4d8&color=fff&size=150"
+                            alt="Dayan Andrea Cantor Ortiz" class="team-avatar-img">
+                        <h4>Dayan Andrea Cantor Ortiz</h4>
+                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
+                        <div class="member-links">
+                            <a href="mailto:dcantoro@unal.edu.co" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism pregrado">
+                        <img src="https://ui-avatars.com/api/?name=Thomas+González+Rodríguez&background=00b4d8&color=fff&size=150"
+                            alt="Thomas González Rodríguez" class="team-avatar-img">
+                        <h4>Thomas González Rodríguez</h4>
+                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
+                        <div class="member-links">
+                            <a href="mailto:thgonzalezr@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0006-3576-9110" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism pregrado">
+                        <img src="https://ui-avatars.com/api/?name=Samuel+David+Matallana+Díaz&background=00b4d8&color=fff&size=150"
+                            alt="Samuel David Matallana Díaz" class="team-avatar-img">
+                        <h4>Samuel David Matallana Díaz</h4>
+                        <p class="role"><span class="es">Pregrado</span><span class="en">Undergraduate</span></p>
+                        <div class="member-links">
+                            <a href="mailto:smatallanad@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0002-9305-8334" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                        </div>
+                    </div>
+                    <!-- Estudiantes de Otras Instituciones -->
+                    <div class="team-member-card glassmorphism otras">
+                        <img src="images/ana_gabriela_martinez.jpg" alt="Ana Gabriela Martínez" class="team-avatar-img">
+                        <h4>Ana Gabriela Martínez</h4>
+                        <p class="role"><span class="es">Otras Inst.</span><span class="en">Other Inst.</span></p>
+                        <div class="member-links">
+                            <a href="mailto:agmartinezm@upn.edu.co" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism otras">
+                        <img src="images/nicoll_valeria_moreno_alzate.png" alt="Nicoll Valeria Moreno Alzate"
+                            class="team-avatar-img">
+                        <h4>Nicoll Valeria Moreno Alzate</h4>
+                        <p class="role"><span class="es">Otras Inst.</span><span class="en">Other Inst.</span></p>
+                        <div class="member-links">
+                            <a href="mailto:nvmorenoa@eafit.edu.co" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism otras">
+                        <img src="https://ui-avatars.com/api/?name=Juan+Camilo+Hernández+Clavijo&background=00b4d8&color=fff&size=150"
+                            alt="Juan Camilo Hernández Clavijo" class="team-avatar-img">
+                        <h4>Juan Camilo Hernández Clavijo</h4>
+                        <p class="role"><span class="es">Escolar</span><span class="en">High School Student</span></p>
+                        <div class="member-links">
+                            <a href="mailto:juancamilohdez2005@gmail.com" class="member-link" title="Email">✉️</a>
+                        </div>
+                    </div>
                     <div class="team-member-card glassmorphism otras">
                         <img src="images/samuel_felipe_norena_tellez.jpg" alt="Samuel Felipe Noreña Téllez"
                             class="team-avatar-img">
@@ -564,6 +1060,18 @@
                         <p class="role"><span class="es">Otras Inst.</span><span class="en">Other Inst.</span></p>
                         <div class="member-links">
                             <a href="mailto:sanorenat@unal.edu.co" class="member-link" title="Email">✉️</a>
+                            <a href="https://orcid.org/0009-0000-4745-3208" target="_blank" class="member-link"
+                                title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                            <a href="https://www.researchgate.net/profile/Samuel-Norena-Tellez" target="_blank"
+                                class="member-link" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member-card glassmorphism otras">
+                        <img src="https://ui-avatars.com/api/?name=Mariana+Castellanos+Ramírez&background=00b4d8&color=fff&size=150"
+                            alt="Mariana Castellanos Ramírez" class="team-avatar-img">
+                        <h4>Mariana Castellanos Ramírez</h4>
+                        <p class="role"><span class="es">Otras Inst.</span><span class="en">Other Inst.</span></p>
+                        <div class="member-links">
                         </div>
                     </div>
                 </div>

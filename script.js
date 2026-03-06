@@ -160,6 +160,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (tesisYearFilter) tesisYearFilter.addEventListener('change', applyTesisFilters);
     if (tesisDirFilter) tesisDirFilter.addEventListener('change', applyTesisFilters);
 
+    // Expandable Cards Logic (Research & News)
+    const initExpandableCards = () => {
+        // News cards expansion
+        document.querySelectorAll('.news-card.expandable').forEach(card => {
+            card.addEventListener('click', (e) => {
+                // Toggle expansion
+                card.classList.toggle('expanded');
+            });
+        });
+    };
+
+    initExpandableCards();
+
     // Language Initialization
     const savedLang = localStorage.getItem('gosa_lang') || 'es';
     setLang(savedLang);
