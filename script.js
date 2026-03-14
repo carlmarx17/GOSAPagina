@@ -77,18 +77,25 @@ document.addEventListener('DOMContentLoaded', () => {
         rootMargin: '0px 0px -50px 0px'
     };
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
+    const scrollAppearElements = document.querySelectorAll('.scroll-appear');
+    const shouldBypassScrollAnimations = window.innerWidth <= 768 || !('IntersectionObserver' in window);
 
-    document.querySelectorAll('.scroll-appear').forEach(el => {
-        observer.observe(el);
-    });
+    if (shouldBypassScrollAnimations) {
+        scrollAppearElements.forEach(el => el.classList.add('visible'));
+    } else {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        scrollAppearElements.forEach(el => {
+            observer.observe(el);
+        });
+    }
 
     const handleScroll = () => {
         if (window.scrollY > 50) {

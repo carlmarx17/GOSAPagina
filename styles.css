@@ -884,6 +884,12 @@ nav ul {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .scroll-appear {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
 }
 
 .about-image-wrapper {
